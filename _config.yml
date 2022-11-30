@@ -1,11 +1,18 @@
 title: Dakota Rennels # your name (or website title) here
 logo: "/images/logo.png?raw=true" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
-  First description 
+  4+ years of Data Science and Data Analytics 
+  experience with extensive experience in 
+  advanced data analytics and exploratory 
+  data analysis.
   <br><br>
-  Second description 
+  Currently, I work as a Data Analyst on the
+  Data Science team for Oklahoma Office of 
+  Management and Enterprise Services. I 
+  continuously aiding the State of Oklahoma 
+  with data modernization efforts.
   <br><br>
-  <a href="https://www.linkedin.com/in/example/">View My LinkedIn Profile</a> 
+  <a href="https://www.linkedin.com/in/dakota-rennels/">View My LinkedIn Profile</a> 
   
 theme: jekyll-theme-minimal
 google_analytics: UA-000000-0 # your Google Analytics tracking ID here
