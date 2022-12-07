@@ -1,4 +1,4 @@
-## Non-Profit Marketing Project
+## Non-Profit MarketingCampaign Efficiency Project
 
 **Project description:** My team was recruited by a non-profit organization to maximize cost efficiency for a donation campaign using data from previous campaigns. Our main goal was to create a model with high accuracy to classify a potential repeat donor. Another model will be used to predict the amount the donor will donate. Based on the software the non-profit has at their disposal, we determined SAS Enterprise Miner was the best software to collaborate and develop models so individuals at the organization can inherit the models for future use while our team can help provide future analytics and support.
 
@@ -208,10 +208,14 @@ Initial analysis on the dataset was performed to confirm the correct data types 
 
 ### 2. Build and run classification models.
 The models were assessed on its overall accuracy (misclassification rate) while observing sensitivity and specificity of the models. donr was the variable used to identify a donor. It is marked '1' if the individual donated and '0' if they did not donate. Four main types of models were tested: Naive Bayesian, Neural Network, Tree-based, and KNN. 
+
+[SAS Classification Diagram:](/SAS/Classification.xml)
 <img src="/images/sas_classification.png?raw=true"/>
 
 ### 3. Build and run prediction models.
 The models were assessed on its overall accuracy (misclassification rate) while observing sensitivity and average squared error of the models. damt was the variable used to identify the predicted amount a donor will donate. Four main types of models were tested: Polynomial Linear Regression, Tree-based Regressor, and Neural Network.
+
+[SAS Prediction Diagram:](/SAS/Prediction.xml)
 <img src="/images/sas_prediction.png?raw=true"/>
 
 ### 4. Provide a summary of analysis and detail limitations.
