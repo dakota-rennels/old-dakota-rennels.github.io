@@ -1,31 +1,222 @@
-## This can be your internal website page / project page
+## Non-Profit Marketing Project
 
-**Project description:** Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+**Project description:** My team was recruited by a non-profit organization to maximize cost efficiency for a donation campaign using data from previous campaigns.
 
-### 1. Suggest hypotheses about the causes of observed phenomena
+### 1. Perform descriptive statistics and EDA on provided data.
 
-Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
+Initial analysis on the dataset was performed to confirm the correct data types were assigned to variables, confirm no missing data in the dataset, and verify the correct target variable for classification and prediction, respectively.
 
-```javascript
-if (isAwesome){
-  return true
-}
-```
+<html>
+<body>
 
-### 2. Assess assumptions on which statistical inference will be based
+<h2>Descriptive Statistics</h2>
 
-```javascript
-if (isAwesome){
-  return true
-}
-```
+<table style="width:100%">
+  <tr>
+    <th>Variable</th>	
+    <th>Missing</th>
+    <th>Count</th>
+    <th>Minimum</th>
+    <th>Maximum</th>
+    <th>Mean</th>
+    <th>Standard Deviation</th>
+    <th>Skewness</th>
+  </tr>
+  <tr>
+    <td>damt</td>
+    <td>0</td>
+    <td>6002</td>
+    <td>0</td>
+    <td>27</td>
+    <td>7.209</td>
+    <td>7.3612</td>
+    <td>0.11698</td>
+  </tr>
+   <tr>
+    <td>donr</td>
+    <td>0</td>
+    <td>6002</td>
+    <td>0</td>
+    <td>1</td>
+    <td>0.499</td>
+    <td>0.5</td>
+    <td>0.00467</td>
+  </tr>
+  <tr>
+    <td>gifa</td>
+    <td>0</td>
+    <td>6002</td>
+    <td>1.89</td>
+    <td>72.27</td>
+    <td>11.678</td>
+    <td>6.5281</td>
+    <td>1.74146</td>
+  </tr>
+  <tr>
+    <td>gifdol</td>
+    <td>0</td>
+    <td>6002</td>
+    <td>23</td>
+    <td>1974</td>
+    <td>115.8</td>
+    <td>86.538</td>
+    <td>6.09138</td>
+  </tr>
+  <tr>
+    <td>gifl</td>
+    <td>0</td>
+    <td>6002</td>
+    <td>3</td>
+    <td>642</td>
+    <td>22.981</td>
+    <td>29.3964</td>
+    <td>7.18035</td>
+  </tr>
+  <tr>
+    <td>gifr</td>
+    <td>0</td>
+    <td>6002</td>
+    <td>1</td>
+    <td>173</td>
+    <td>15.654</td>
+    <td>12.4246</td>
+    <td>2.67345</td>
+  </tr>
+  <tr>
+    <td>hv</td>
+    <td>0</td>
+    <td>6002</td>
+    <td>51</td>
+    <td>710</td>
+    <td>183.905</td>
+    <td>72.7705</td>
+    <td>1.4889</td>
+  </tr>
+  <tr>
+    <td>inc</td>
+    <td>0</td>
+    <td>6002</td>
+    <td>1</td>
+    <td>7</td>
+    <td>3.939</td>
+    <td>1.4019</td>
+    <td>-0.01495</td>
+  </tr>
+  <tr>
+    <td>incavg</td>
+	<td>0</td>	
+	<td>6002</td>
+	<td>14</td>
+	<td>287</td>
+	<td>56.789</td>
+	<td>24.833</td>
+	<td>1.85779</td>
+  </tr>
+  <tr>
+    <td>incmed</td>
+	<td>0</td>	
+	<td>6002</td>
+	<td>3</td>	
+	<td>287</td>
+	<td>43.949</td>
+	<td>24.6644</td>
+	<td>2.00492</td>
+  </tr>
+  <tr>
+    <td>kids</td>
+	<td>0</td>	
+	<td>6002</td>
+	<td>0</td>	
+	<td>5</td>
+	<td>1.584</td>
+	<td>1.4125</td>
+	<td>0.39406</td>
+  </tr>
+  <tr>
+    <td>lag</td>
+	<td>0</td>	
+	<td>6002</td>
+	<td>1</td>	
+	<td>34</td>
+	<td>6.319</td>
+	<td>3.6414</td>
+	<td>2.41056</td>
+  </tr>
+  <tr>
+    <td>low</td>
+	<td>0</td>	
+	<td>6002</td>
+	<td>0</td>
+	<td>87</td>
+	<td>13.885</td>
+	<td>13.1046</td>	
+	<td>1.35139</td>
+  </tr>
+  <tr>
+    <td>mdon</td>
+	<td>0</td>	
+	<td>6002</td>
+	<td>5</td>	
+	<td>40</td>
+	<td>18.789</td>
+	<td>5.5963</td>
+	<td>1.1176</td>
+  </tr>
+  <tr>
+    <td>npro</td>
+	<td>0</td>	
+	<td>6002</td>
+	<td>2</td>	
+	<td>164</td>
+	<td>61.354</td>
+	<td>30.3052</td>
+	<td>0.28319</td>
+  </tr>
+  <tr>
+    <td>ownd</td>
+	<td>0</td>	
+	<td>6002</td>	
+	<td>0</td>
+	<td>1</td>
+	<td>0.885</td>
+	<td>0.3196</td>
+	<td>-2.40714</td>
+  </tr>
+  <tr>
+    <td>sex</td>
+	<td>0</td>
+	<td>6002</td>
+	<td>0</td>
+	<td>1</td>
+	<td>0.608</td>
+	<td>0.4883</td>
+	<td>-0.44168</td>
+  </tr>
+  <tr>
+    <td>wlth</td>
+	<td>0</td>	
+	<td>6002</td>
+	<td>0</td>	
+	<td>9</td>	
+	<td>7.023</td>	
+	<td>2.331</td>	
+	<td>-1.46091</td>
+  </tr>
+</table>
+</body>
+</html>
 
-### 3. Support the selection of appropriate statistical tools and techniques
+### 2. Build and run classification models.
+<img src="images/sas_classification.png?raw=true"/>
+The models were assessed on its overall accuracy (misclassification rate) while observing sensitivity and specificity of the models. donr was the variable used to identify a donor. It is marked '1' if the individual donated and '0' if they did not donate. Four main types of models were tested: Naive Bayesian, Neural Network, Tree-based, and KNN. 
 
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+### 3. Build and run prediction models.
 
-### 4. Provide a basis for further data collection through surveys or experiments
+<img src="images/sas_prediction.png?raw=true"/>
+The models were assessed on its overall accuracy (misclassification rate) while observing sensitivity and average squared error of the models. damt was the variable used to identify the predicted amount a donor will donate. Four main types of models were tested: Polynomial Linear Regression, Tree-based Regressor, and Neural Network.
 
-Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
+### 4. Provide a summary of analysis and detail limitations.
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+The Neural Networks in both the classification and prediction models provided the best models for deployment. Using the models, an estimated 76% improvement in cost effectiveness is estimated. The estimated percent is based on the estimated donation amount from each predicted donor. Limitaions in the data consist of limited records to train and test the model while more variables could have been analyzed to fine tune a more accurate model. More detailed location data was withheld from the data team that could have been beneficial to regional analysis and donation prediction. Using the new data from the upcoming marketing campaign will detail how accurate the predicting power of the model is and can be used to fine tune the model for future usage.
+
+For more details see [Report via PDF](SAS/Nonprofit_marketing_report.pdf).
