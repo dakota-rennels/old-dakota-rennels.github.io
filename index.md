@@ -7,9 +7,9 @@
 [Non-Profit Efficent Marketing Campaign via SAS Enterprise Miner](/SAS/Nonprofit_marketing_report.docx)
 <br>
 [SAS Classification Diagram:](/SAS/Classification.xml)
-<img src="sas_classification.png?raw=true"/>
+<img src="images/sas_classification.png?raw=true"/>
 [SAS Prediction Diagram:](/SAS/Prediction.xml)
-<img src="sas_prediction.png?raw=true"/>
+<img src="images/sas_prediction.png?raw=true"/>
 
 ---
 
