@@ -1,0 +1,1311 @@
+<?xml version="1.0" encoding="UTF-8"?><_ROOT_ EMVERSION="15.2" ORIENTATION="HORIZONTAL">
+<Workspace>
+<NODES>
+<NODE CLASS="SASHELP.EMMODL.AUTONEURAL.CLASS" COMPONENT="AutoNeural" ID="AutoNeural" X="881" Y="471" DESCRIPTION="AutoNeural" DIAGRAMID="_ROOT_" PARENTID="" TOOLTYPE="MODEL" TOOLPREFIX="AutoNeural">
+<PROPERTIES Architecture="SINGLE LAYER" TrainAction="SEARCH" Termination="OVERFITTING" TargetError="DEFAULT" Hidden="2" TotalHidden="30" MaxIter="20" AdjustIterations="Y" FinalTrain="Y" FinalIter="5" TotalTime="1 HOUR" Freeze="N" Direct="Y" Tanh="Y" Normal="Y" Sine="Y" Exponential="N" Identity="N" Logistic="N" Reciprocal="N" Softmax="N" Square="N" Tolerance="MEDIUM" Residuals="Y" Standardizations="N" HiddenUnits="N" outfit="" weights="" estds="" Bestds="" HistoryDs="" ForceRun="N" RunAction="Train" Component="AutoNeural">
+<VariableProperties/>
+<EmTargetAttributes>
+<damt>
+<DecData Table="EMWS2.AutoNeural_damt_DD">
+<Data>
+<Obs DAMT="0"/>
+<Obs DAMT="27"/>
+<Obs DAMT="7.1801951916"/>
+</Data>
+<Metadata>
+<Variable NAME="damt" LABEL="damt" LENGTH="8" FORMAT="" TYPE="N"/>
+</Metadata>
+</DecData>
+<DecMeta Table="EMWS2.AutoNeural_damt_DM">
+<Data>
+<Obs _TYPE_="MATRIX" VARIABLE="" LABEL="" FORMAT="" LEVEL="PROFIT" TYPE="" COST="" USE="N" MIN="." MEAN="." MAX="."/>
+<Obs _TYPE_="TARGET" VARIABLE="damt" LABEL="damt" FORMAT="BEST." LEVEL="INTERVAL" TYPE="N" COST="" USE="" MIN="0" MEAN="7.1801951916" MAX="27"/>
+<Obs _TYPE_="PREDICTED" VARIABLE="P_damt" LABEL="Predicted: damt" FORMAT="" LEVEL="" TYPE="N" COST="" USE="" MIN="." MEAN="." MAX="."/>
+<Obs _TYPE_="RESIDUAL" VARIABLE="R_damt" LABEL="Residual: damt" FORMAT="" LEVEL="" TYPE="N" COST="" USE="" MIN="." MEAN="." MAX="."/>
+</Data>
+<Metadata>
+<Variable NAME="_TYPE_" LABEL="Type" LENGTH="32" FORMAT="" TYPE="C"/>
+<Variable NAME="VARIABLE" LABEL="Variable" LENGTH="32" FORMAT="" TYPE="C"/>
+<Variable NAME="LABEL" LABEL="Label" LENGTH="256" FORMAT="" TYPE="C"/>
+<Variable NAME="FORMAT" LABEL="Format" LENGTH="32" FORMAT="" TYPE="C"/>
+<Variable NAME="LEVEL" LABEL="Measurement Level" LENGTH="32" FORMAT="" TYPE="C"/>
+<Variable NAME="TYPE" LABEL="Type" LENGTH="1" FORMAT="" TYPE="C"/>
+<Variable NAME="COST" LABEL="Cost" LENGTH="32" FORMAT="" TYPE="C"/>
+<Variable NAME="USE" LABEL="Use" LENGTH="1" FORMAT="" TYPE="C"/>
+<Variable NAME="MIN" LABEL="Minimum" LENGTH="8" FORMAT="" TYPE="N"/>
+<Variable NAME="MEAN" LABEL="Mean" LENGTH="8" FORMAT="" TYPE="N"/>
+<Variable NAME="MAX" LABEL="Maximum" LENGTH="8" FORMAT="" TYPE="N"/>
+</Metadata>
+</DecMeta>
+</damt>
+</EmTargetAttributes>
+<EmVariableAttributes>
+<DELTA Variable="donr" AttributeName="USE" AttributeValue="Y"/>
+</EmVariableAttributes>
+<EmFileProperties>
+<EMNOTES Type="EXTERNAL" Extension="txt">
+<Data/>
+</EMNOTES>
+</EmFileProperties>
+</PROPERTIES>
+</NODE>
+<NODE CLASS="SASHELP.EMMODL.AUTONEURAL.CLASS" COMPONENT="AutoNeural" ID="AutoNeural2" X="876" Y="1027" DESCRIPTION="AutoNeural" DIAGRAMID="_ROOT_" PARENTID="" TOOLTYPE="MODEL" TOOLPREFIX="AutoNeural">
+<PROPERTIES Architecture="SINGLE LAYER" TrainAction="SEARCH" Termination="OVERFITTING" TargetError="DEFAULT" Hidden="2" TotalHidden="30" MaxIter="20" AdjustIterations="Y" FinalTrain="Y" FinalIter="5" TotalTime="1 HOUR" Freeze="N" Direct="Y" Tanh="Y" Normal="Y" Sine="Y" Exponential="N" Identity="N" Logistic="N" Reciprocal="N" Softmax="N" Square="N" Tolerance="MEDIUM" Residuals="Y" Standardizations="N" HiddenUnits="N" outfit="" weights="" estds="" Bestds="" HistoryDs="" ForceRun="N" RunAction="Train" Component="AutoNeural">
+<VariableProperties/>
+<EmTargetAttributes>
+<damt>
+<DecData Table="EMWS2.AutoNeural2_damt_DD">
+<Data>
+<Obs DAMT="0"/>
+<Obs DAMT="26"/>
+<Obs DAMT="7.3823038397"/>
+</Data>
+<Metadata>
+<Variable NAME="damt" LABEL="damt" LENGTH="8" FORMAT="" TYPE="N"/>
+</Metadata>
+</DecData>
+<DecMeta Table="EMWS2.AutoNeural2_damt_DM">
+<Data>
+<Obs _TYPE_="MATRIX" VARIABLE="" LABEL="" FORMAT="" LEVEL="PROFIT" TYPE="" COST="" USE="N" MIN="." MEAN="." MAX="."/>
+<Obs _TYPE_="TARGET" VARIABLE="damt" LABEL="damt" FORMAT="BEST." LEVEL="INTERVAL" TYPE="N" COST="" USE="" MIN="0" MEAN="7.3823038397" MAX="26"/>
+<Obs _TYPE_="PREDICTED" VARIABLE="P_damt" LABEL="Predicted: damt" FORMAT="" LEVEL="" TYPE="N" COST="" USE="" MIN="." MEAN="." MAX="."/>
+<Obs _TYPE_="RESIDUAL" VARIABLE="R_damt" LABEL="Residual: damt" FORMAT="" LEVEL="" TYPE="N" COST="" USE="" MIN="." MEAN="." MAX="."/>
+</Data>
+<Metadata>
+<Variable NAME="_TYPE_" LABEL="Type" LENGTH="32" FORMAT="" TYPE="C"/>
+<Variable NAME="VARIABLE" LABEL="Variable" LENGTH="32" FORMAT="" TYPE="C"/>
+<Variable NAME="LABEL" LABEL="Label" LENGTH="256" FORMAT="" TYPE="C"/>
+<Variable NAME="FORMAT" LABEL="Format" LENGTH="32" FORMAT="" TYPE="C"/>
+<Variable NAME="LEVEL" LABEL="Measurement Level" LENGTH="32" FORMAT="" TYPE="C"/>
+<Variable NAME="TYPE" LABEL="Type" LENGTH="1" FORMAT="" TYPE="C"/>
+<Variable NAME="COST" LABEL="Cost" LENGTH="32" FORMAT="" TYPE="C"/>
+<Variable NAME="USE" LABEL="Use" LENGTH="1" FORMAT="" TYPE="C"/>
+<Variable NAME="MIN" LABEL="Minimum" LENGTH="8" FORMAT="" TYPE="N"/>
+<Variable NAME="MEAN" LABEL="Mean" LENGTH="8" FORMAT="" TYPE="N"/>
+<Variable NAME="MAX" LABEL="Maximum" LENGTH="8" FORMAT="" TYPE="N"/>
+</Metadata>
+</DecMeta>
+</damt>
+</EmTargetAttributes>
+<EmVariableAttributes>
+<DELTA Variable="donr" AttributeName="USE" AttributeValue="Y"/>
+</EmVariableAttributes>
+<EmFileProperties>
+<EMNOTES Type="EXTERNAL" Extension="txt">
+<Data/>
+</EMNOTES>
+</EmFileProperties>
+</PROPERTIES>
+</NODE>
+<NODE CLASS="SASHELP.EMCORE.EXTENSION.CLASS" COMPONENT="Boost" ID="Boost" X="884" Y="148" DESCRIPTION="Gradient Boosting" DIAGRAMID="_ROOT_" PARENTID="" TOOLTYPE="MODEL" TOOLPREFIX="Boost">
+<PROPERTIES Location="CATALOG" Catalog="SASHELP.EMMODL.BOOST.SOURCE" ToolType="MODEL" Iterations="50" CategoricalBins="30" IntervalBins="100" TrainProportion="60" Seed="12345" Shrinkage="0.1" LeafFraction="0.001" SplitSize="." MinCatSize="5" MaxBranch="2" MaxDepth="2" NSurrs="0" Missing="USEINSEARCH" Huber="NO" ReUseVar="1" AssessMeasure="PROFIT" NodeSize="20000" Exhaustive="5000" VarSelection="Y" Performance="DISK" SubSeries="BEST" IterationNum="1" ObsImportance="N" NumSingleImp="5" CreateHStat="N" ForceRun="N" RunAction="Train" Component="Boost" Precision="0" Measure="PROFIT" NumPairImp="0" DataNeeded="Y">
+<VariableProperties/>
+<EmVariableAttributes>
+<DELTA Variable="donr" AttributeName="USE" AttributeValue="Y"/>
+</EmVariableAttributes>
+<EmTargetAttributes>
+<damt>
+<DecData Table="EMWS2.Boost_damt_DD">
+<Data>
+<Obs DAMT="0"/>
+<Obs DAMT="27"/>
+<Obs DAMT="7.1801951916"/>
+</Data>
+<Metadata>
+<Variable NAME="damt" LABEL="damt" LENGTH="8" FORMAT="" TYPE="N"/>
+</Metadata>
+</DecData>
+<DecMeta Table="EMWS2.Boost_damt_DM">
+<Data>
+<Obs _TYPE_="MATRIX" VARIABLE="" LABEL="" FORMAT="" LEVEL="PROFIT" TYPE="" COST="" USE="N" MIN="." MEAN="." MAX="."/>
+<Obs _TYPE_="TARGET" VARIABLE="damt" LABEL="damt" FORMAT="BEST." LEVEL="INTERVAL" TYPE="N" COST="" USE="" MIN="0" MEAN="7.1801951916" MAX="27"/>
+<Obs _TYPE_="PREDICTED" VARIABLE="P_damt" LABEL="Predicted: damt" FORMAT="" LEVEL="" TYPE="N" COST="" USE="" MIN="." MEAN="." MAX="."/>
+<Obs _TYPE_="RESIDUAL" VARIABLE="R_damt" LABEL="Residual: damt" FORMAT="" LEVEL="" TYPE="N" COST="" USE="" MIN="." MEAN="." MAX="."/>
+</Data>
+<Metadata>
+<Variable NAME="_TYPE_" LABEL="Type" LENGTH="32" FORMAT="" TYPE="C"/>
+<Variable NAME="VARIABLE" LABEL="Variable" LENGTH="32" FORMAT="" TYPE="C"/>
+<Variable NAME="LABEL" LABEL="Label" LENGTH="256" FORMAT="" TYPE="C"/>
+<Variable NAME="FORMAT" LABEL="Format" LENGTH="32" FORMAT="" TYPE="C"/>
+<Variable NAME="LEVEL" LABEL="Measurement Level" LENGTH="32" FORMAT="" TYPE="C"/>
+<Variable NAME="TYPE" LABEL="Type" LENGTH="1" FORMAT="" TYPE="C"/>
+<Variable NAME="COST" LABEL="Cost" LENGTH="32" FORMAT="" TYPE="C"/>
+<Variable NAME="USE" LABEL="Use" LENGTH="1" FORMAT="" TYPE="C"/>
+<Variable NAME="MIN" LABEL="Minimum" LENGTH="8" FORMAT="" TYPE="N"/>
+<Variable NAME="MEAN" LABEL="Mean" LENGTH="8" FORMAT="" TYPE="N"/>
+<Variable NAME="MAX" LABEL="Maximum" LENGTH="8" FORMAT="" TYPE="N"/>
+</Metadata>
+</DecMeta>
+</damt>
+</EmTargetAttributes>
+<EmFileProperties>
+<USERTRAINCODE Type="EXTERNAL" Extension="sas">
+<Data/>
+</USERTRAINCODE>
+<EMNOTES Type="EXTERNAL" Extension="txt">
+<Data/>
+</EMNOTES>
+</EmFileProperties>
+</PROPERTIES>
+</NODE>
+<NODE CLASS="SASHELP.EMCORE.EXTENSION.CLASS" COMPONENT="Boost" ID="Boost2" X="879" Y="704" DESCRIPTION="Gradient Boosting" DIAGRAMID="_ROOT_" PARENTID="" TOOLTYPE="MODEL" TOOLPREFIX="Boost">
+<PROPERTIES Location="CATALOG" Catalog="SASHELP.EMMODL.BOOST.SOURCE" ToolType="MODEL" Iterations="50" CategoricalBins="30" IntervalBins="100" TrainProportion="60" Seed="12345" Shrinkage="0.1" LeafFraction="0.001" SplitSize="." MinCatSize="5" MaxBranch="2" MaxDepth="2" NSurrs="0" Missing="USEINSEARCH" Huber="NO" ReUseVar="1" AssessMeasure="PROFIT" NodeSize="20000" Exhaustive="5000" VarSelection="Y" Performance="DISK" SubSeries="BEST" IterationNum="1" ObsImportance="N" NumSingleImp="5" CreateHStat="N" ForceRun="N" RunAction="Train" Component="Boost" Precision="0" Measure="PROFIT" NumPairImp="0" DataNeeded="Y">
+<VariableProperties/>
+<EmTargetAttributes>
+<damt>
+<DecData Table="EMWS2.Boost2_damt_DD">
+<Data>
+<Obs DAMT="0"/>
+<Obs DAMT="26"/>
+<Obs DAMT="7.3823038397"/>
+</Data>
+<Metadata>
+<Variable NAME="damt" LABEL="damt" LENGTH="8" FORMAT="" TYPE="N"/>
+</Metadata>
+</DecData>
+<DecMeta Table="EMWS2.Boost2_damt_DM">
+<Data>
+<Obs _TYPE_="MATRIX" VARIABLE="" LABEL="" FORMAT="" LEVEL="PROFIT" TYPE="" COST="" USE="N" MIN="." MEAN="." MAX="."/>
+<Obs _TYPE_="TARGET" VARIABLE="damt" LABEL="damt" FORMAT="BEST." LEVEL="INTERVAL" TYPE="N" COST="" USE="" MIN="0" MEAN="7.3823038397" MAX="26"/>
+<Obs _TYPE_="PREDICTED" VARIABLE="P_damt" LABEL="Predicted: damt" FORMAT="" LEVEL="" TYPE="N" COST="" USE="" MIN="." MEAN="." MAX="."/>
+<Obs _TYPE_="RESIDUAL" VARIABLE="R_damt" LABEL="Residual: damt" FORMAT="" LEVEL="" TYPE="N" COST="" USE="" MIN="." MEAN="." MAX="."/>
+</Data>
+<Metadata>
+<Variable NAME="_TYPE_" LABEL="Type" LENGTH="32" FORMAT="" TYPE="C"/>
+<Variable NAME="VARIABLE" LABEL="Variable" LENGTH="32" FORMAT="" TYPE="C"/>
+<Variable NAME="LABEL" LABEL="Label" LENGTH="256" FORMAT="" TYPE="C"/>
+<Variable NAME="FORMAT" LABEL="Format" LENGTH="32" FORMAT="" TYPE="C"/>
+<Variable NAME="LEVEL" LABEL="Measurement Level" LENGTH="32" FORMAT="" TYPE="C"/>
+<Variable NAME="TYPE" LABEL="Type" LENGTH="1" FORMAT="" TYPE="C"/>
+<Variable NAME="COST" LABEL="Cost" LENGTH="32" FORMAT="" TYPE="C"/>
+<Variable NAME="USE" LABEL="Use" LENGTH="1" FORMAT="" TYPE="C"/>
+<Variable NAME="MIN" LABEL="Minimum" LENGTH="8" FORMAT="" TYPE="N"/>
+<Variable NAME="MEAN" LABEL="Mean" LENGTH="8" FORMAT="" TYPE="N"/>
+<Variable NAME="MAX" LABEL="Maximum" LENGTH="8" FORMAT="" TYPE="N"/>
+</Metadata>
+</DecMeta>
+</damt>
+</EmTargetAttributes>
+<EmVariableAttributes>
+<DELTA Variable="donr" AttributeName="USE" AttributeValue="Y"/>
+</EmVariableAttributes>
+<EmFileProperties>
+<USERTRAINCODE Type="EXTERNAL" Extension="sas">
+<Data/>
+</USERTRAINCODE>
+<EMNOTES Type="EXTERNAL" Extension="txt">
+<Data/>
+</EMNOTES>
+</EmFileProperties>
+</PROPERTIES>
+</NODE>
+<NODE CLASS="SASHELP.EMUTIL.CONTROLPOINT.CLASS" COMPONENT="ControlPoint" ID="CNTRL" X="1047" Y="257" DESCRIPTION="Control Point" DIAGRAMID="_ROOT_" PARENTID="">
+<PROPERTIES/>
+</NODE>
+<NODE CLASS="SASHELP.EMUTIL.CONTROLPOINT.CLASS" COMPONENT="ControlPoint" ID="CNTRL2" X="1054" Y="388" DESCRIPTION="Control Point" DIAGRAMID="_ROOT_" PARENTID="">
+<PROPERTIES/>
+</NODE>
+<NODE CLASS="SASHELP.EMUTIL.CONTROLPOINT.CLASS" COMPONENT="ControlPoint" ID="CNTRL3" X="1042" Y="813" DESCRIPTION="Control Point" DIAGRAMID="_ROOT_" PARENTID="">
+<PROPERTIES/>
+</NODE>
+<NODE CLASS="SASHELP.EMUTIL.CONTROLPOINT.CLASS" COMPONENT="ControlPoint" ID="CNTRL4" X="1049" Y="944" DESCRIPTION="Control Point" DIAGRAMID="_ROOT_" PARENTID="">
+<PROPERTIES/>
+</NODE>
+<NODE CLASS="SASHELP.EMCORE.EXTENSION.CLASS" COMPONENT="DMDB" ID="DMDB" X="459" Y="115" DESCRIPTION="DMDB" DIAGRAMID="_ROOT_" PARENTID="" TOOLTYPE="EXPLORE" TOOLPREFIX="DMDB">
+<PROPERTIES Location="CATALOG" Catalog="SASHELP.EMEXPL.DMDB.SOURCE" Interval="Y" Class="Y" MaxValues="25" ForceRun="N" RunAction="Train" Component="DMDB" DataNeeded="Y">
+<VariableProperties/>
+<EmVariableAttributes>
+<DELTA Variable="damt" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="donr" AttributeName="ROLE" AttributeValue="TARGET"/>
+</EmVariableAttributes>
+<EmTargetAttributes/>
+<EmFileProperties>
+<USERTRAINCODE Type="EXTERNAL" Extension="sas">
+<Data/>
+</USERTRAINCODE>
+<EMNOTES Type="EXTERNAL" Extension="txt">
+<Data/>
+</EMNOTES>
+</EmFileProperties>
+</PROPERTIES>
+</NODE>
+<NODE CLASS="SASHELP.EMCORE.EXTENSION.CLASS" COMPONENT="FileImport" ID="FIMPORT" X="1274" Y="524" DESCRIPTION="NonProfit_Score" DIAGRAMID="_ROOT_" PARENTID="" TOOLTYPE="SAMPLE" TOOLPREFIX="FIMPORT">
+<PROPERTIES Location="CATALOG" Catalog="SASHELP.EMSAMP.Fimport.SOURCE" ImportType="Local" GuessRows="500" Delimiter="," NameRow="Y" SkipRows="0" MaxRows="1000000" MaxCols="10000" FileType="xlsx" Role="TRAIN" ForceRun="N" Summarize="N" AdvancedAdvisor="N" RunAction="Train" Component="FileImport" IFileName="C:\Users\dakot\Documents\nonprofit_score.xlsx" AccessTable="NoTableName" UserID="NoUserID" Password="NoPassword">
+<VariableProperties/>
+<EmVariableAttributes/>
+<EmTargetAttributes/>
+<EmFileProperties>
+<USERTRAINCODE Type="EXTERNAL" Extension="sas">
+<Data/>
+</USERTRAINCODE>
+<VARIABLESETDELTA Type="EXTERNAL" Extension="txt">
+<Data/>
+</VARIABLESETDELTA>
+<DELTACODE Type="EXTERNAL" Extension="txt">
+<Data/>
+</DELTACODE>
+<EMNOTES Type="EXTERNAL" Extension="txt">
+<Data/>
+</EMNOTES>
+</EmFileProperties>
+</PROPERTIES>
+</NODE>
+<NODE CLASS="SASHELP.EMCORE.EXTENSION.CLASS" COMPONENT="FileImport" ID="FIMPORT2" X="200" Y="388" DESCRIPTION="NonProfit" DIAGRAMID="_ROOT_" PARENTID="" TOOLTYPE="SAMPLE" TOOLPREFIX="FIMPORT">
+<PROPERTIES Location="CATALOG" Catalog="SASHELP.EMSAMP.FIMPORT.SOURCE" ImportType="Local" GuessRows="500" Delimiter="," NameRow="Y" SkipRows="0" MaxRows="1000000" MaxCols="10000" FileType="xlsx" Role="TRAIN" ForceRun="N" Summarize="N" AdvancedAdvisor="N" RunAction="Train" Component="FileImport" IFileName="C:\Users\dakot\Documents\nonprofit.xlsx" AccessTable="NoTableName" UserID="NoUserID" Password="NoPassword">
+<VariableProperties/>
+<EmTargetAttributes/>
+<EmVariableAttributes>
+<DELTA Variable="damt" AttributeName="ROLE" AttributeValue="TARGET"/>
+<DELTA Variable="donr" AttributeName="LEVEL" AttributeValue="BINARY"/>
+<DELTA Variable="inc" AttributeName="LEVEL" AttributeValue="ORDINAL"/>
+<DELTA Variable="ownd" AttributeName="LEVEL" AttributeValue="BINARY"/>
+<DELTA Variable="sex" AttributeName="LEVEL" AttributeValue="BINARY"/>
+</EmVariableAttributes>
+<EmFileProperties>
+<USERTRAINCODE Type="EXTERNAL" Extension="sas">
+<Data/>
+</USERTRAINCODE>
+<VARIABLESETDELTA Type="EXTERNAL" Extension="txt">
+<Data><![CDATA[
+if NAME=&quot;damt&quot; then do;
+ROLE=&quot;TARGET&quot;;
+LEVEL=&quot;INTERVAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;donr&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;BINARY&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;inc&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;ORDINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;ownd&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;BINARY&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;sex&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;BINARY&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+]]>
+</Data>
+</VARIABLESETDELTA>
+<DELTACODE Type="EXTERNAL" Extension="txt">
+<Data><![CDATA[
+if NAME=&quot;damt&quot; then do;
+ROLE=&quot;TARGET&quot;;
+LEVEL=&quot;INTERVAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;donr&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;BINARY&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;inc&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;ORDINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;ownd&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;BINARY&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;sex&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;BINARY&quot;;
+ORDER=&quot;&quot;;
+end;
+drop DROP;
+]]>
+</Data>
+</DELTACODE>
+<EMNOTES Type="EXTERNAL" Extension="txt">
+<Data/>
+</EMNOTES>
+</EmFileProperties>
+</PROPERTIES>
+</NODE>
+<NODE CLASS="SASHELP.EMMDFY.FILTERTOOL.CLASS" COMPONENT="Filter" ID="Filter" X="363" Y="516" DESCRIPTION="Filter" DIAGRAMID="_ROOT_" PARENTID="" TOOLTYPE="MODIFY" TOOLPREFIX="Filter">
+<PROPERTIES KeepMissingClass="Y" KeepMissingInterval="Y" NormalizeClassValue="Y" ExportTable="FILTERED" TabletoFilter="TRAIN" IntervalFilterMethod="STDDEV" ClassFilterMethod="MINPCT" MinFreq="1" MinPercent="0.01" MaxValues="25" MADSCutoff="9" SpacingsCutoff="9" StddevCutoff="3" PercentsCutoff="0.5" PublishScoreCode="Y" CreateDistributionData="Y" UpdateClassLevel="N" ForceRun="N" RunAction="Train" Component="Filter">
+<VariableProperties/>
+<EmVariableAttributes>
+<DELTA Variable="damt" AttributeName="INTERVALMIN" AttributeValue="1"/>
+</EmVariableAttributes>
+<EmTargetAttributes/>
+<EmFileProperties>
+<CLASSFILTER Type="DATA">
+<Data/>
+<Metadata>
+<Variable NAME="VARIABLE" LABEL="Variable" LENGTH="32" FORMAT="" TYPE="C"/>
+<Variable NAME="VALUE" LABEL="Value" LENGTH="12" FORMAT="" TYPE="C"/>
+<Variable NAME="COUNT" LABEL="Frequency Count" LENGTH="8" FORMAT="" TYPE="N"/>
+<Variable NAME="PERCENT" LABEL="Percent" LENGTH="8" FORMAT="" TYPE="N"/>
+<Variable NAME="Filter" LABEL="" LENGTH="1" FORMAT="" TYPE="C"/>
+</Metadata>
+</CLASSFILTER>
+<EMNOTES Type="EXTERNAL" Extension="txt">
+<Data/>
+</EMNOTES>
+</EmFileProperties>
+</PROPERTIES>
+</NODE>
+<NODE CLASS="SASHELP.EMCORE.EXTENSION.CLASS" COMPONENT="GraphExplore" ID="GrfExpl" X="458" Y="157" DESCRIPTION="Graph Explore" DIAGRAMID="_ROOT_" PARENTID="" TOOLTYPE="EXPLORE" TOOLPREFIX="GrfExpl">
+<PROPERTIES Location="CATALOG" Catalog="SASHELP.EMEXPL.GRAPHEXPLORE.SOURCE" EmSampleMethod="FIRSTN" EmSampleSize="DEFAULT" EmRandomSeed="12345" Target="Y" GroupByTarget="Y" ForceRun="N" RunAction="Train" Component="GraphExplore" DataSource="SAMPLE" DataNeeded="Y">
+<VariableProperties/>
+<EmVariableAttributes>
+<DELTA Variable="damt" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="donr" AttributeName="ROLE" AttributeValue="TARGET"/>
+</EmVariableAttributes>
+<EmTargetAttributes/>
+<EmFileProperties>
+<USERTRAINCODE Type="EXTERNAL" Extension="sas">
+<Data/>
+</USERTRAINCODE>
+<EMNOTES Type="EXTERNAL" Extension="txt">
+<Data/>
+</EMNOTES>
+</EmFileProperties>
+</PROPERTIES>
+</NODE>
+<NODE CLASS="SASHELP.EMCORE.EXTENSION.CLASS" COMPONENT="GraphExplore" ID="GrfExpl2" X="1745" Y="526" DESCRIPTION="Graph Explore" DIAGRAMID="_ROOT_" PARENTID="" TOOLTYPE="EXPLORE" TOOLPREFIX="GrfExpl">
+<PROPERTIES Location="CATALOG" Catalog="SASHELP.EMEXPL.GRAPHEXPLORE.SOURCE" EmSampleMethod="FIRSTN" EmSampleSize="DEFAULT" EmRandomSeed="12345" Target="Y" GroupByTarget="Y" ForceRun="N" RunAction="Train" Component="GraphExplore" DataSource="SAMPLE" DataNeeded="Y">
+<VariableProperties/>
+<EmTargetAttributes/>
+<EmVariableAttributes/>
+<EmFileProperties>
+<USERTRAINCODE Type="EXTERNAL" Extension="sas">
+<Data/>
+</USERTRAINCODE>
+<EMNOTES Type="EXTERNAL" Extension="txt">
+<Data/>
+</EMNOTES>
+</EmFileProperties>
+</PROPERTIES>
+</NODE>
+<NODE CLASS="SASHELP.EMCORE.EXTENSION.CLASS" COMPONENT="GraphExplore" ID="GrfExpl3" X="1737" Y="716" DESCRIPTION="Graph Explore" DIAGRAMID="_ROOT_" PARENTID="" TOOLTYPE="EXPLORE" TOOLPREFIX="GrfExpl">
+<PROPERTIES Location="CATALOG" Catalog="SASHELP.EMEXPL.GRAPHEXPLORE.SOURCE" EmSampleMethod="FIRSTN" EmSampleSize="DEFAULT" EmRandomSeed="12345" Target="Y" GroupByTarget="Y" ForceRun="N" RunAction="Train" Component="GraphExplore" DataSource="SAMPLE" DataNeeded="Y">
+<VariableProperties/>
+<EmTargetAttributes/>
+<EmVariableAttributes/>
+<EmFileProperties>
+<USERTRAINCODE Type="EXTERNAL" Extension="sas">
+<Data/>
+</USERTRAINCODE>
+<EMNOTES Type="EXTERNAL" Extension="txt">
+<Data/>
+</EMNOTES>
+</EmFileProperties>
+</PROPERTIES>
+</NODE>
+<NODE CLASS="SASHELP.EMCORE.EXTENSION.CLASS" COMPONENT="HPDMForest" ID="HPDMForest" X="883" Y="193" DESCRIPTION="HP Forest" DIAGRAMID="_ROOT_" PARENTID="" TOOLTYPE="MODEL" TOOLPREFIX="HPDMForest">
+<PROPERTIES Location="CATALOG" Catalog="SASHELP.HPDM.HPDMForest.SOURCE" ToolType="MODEL" ALPHA="0.05" CATBINS="30" EXHAUSTIVE="5000" LEAFSIZEMETHOD="DEFAULT" LEAFFRACTION="0.00001" LEAFSIZE="1" MAXDEPTH="50" MAXTREES="100" MINCATSIZE="5" SEED="12345" SPLITSIZE="." NUMOBSMETHOD="PERCENTAGE" TRAINFRACTION="0.6" TRAINN="." VARS_TO_TRY="." MISSING="USEINSEARCH" MINUSEINSEARCH="1" MODELING="Y" VARSELECT="Y" VIMETHOD="LOSSREDUCTION" RBATOPNUM="25" RBACUT="0.01" ForceRun="N" RunAction="Train" Component="HPDMForest">
+<VariableProperties/>
+<EmTargetAttributes>
+<damt>
+<DecData Table="EMWS2.HPDMForest_damt_DD">
+<Data>
+<Obs DAMT="0"/>
+<Obs DAMT="27"/>
+<Obs DAMT="7.1801951916"/>
+</Data>
+<Metadata>
+<Variable NAME="damt" LABEL="damt" LENGTH="8" FORMAT="" TYPE="N"/>
+</Metadata>
+</DecData>
+<DecMeta Table="EMWS2.HPDMForest_damt_DM">
+<Data>
+<Obs _TYPE_="MATRIX" VARIABLE="" LABEL="" FORMAT="" LEVEL="PROFIT" TYPE="" COST="" USE="N" MIN="." MEAN="." MAX="."/>
+<Obs _TYPE_="TARGET" VARIABLE="damt" LABEL="damt" FORMAT="BEST." LEVEL="INTERVAL" TYPE="N" COST="" USE="" MIN="0" MEAN="7.1801951916" MAX="27"/>
+<Obs _TYPE_="PREDICTED" VARIABLE="P_damt" LABEL="Predicted: damt" FORMAT="" LEVEL="" TYPE="N" COST="" USE="" MIN="." MEAN="." MAX="."/>
+<Obs _TYPE_="RESIDUAL" VARIABLE="R_damt" LABEL="Residual: damt" FORMAT="" LEVEL="" TYPE="N" COST="" USE="" MIN="." MEAN="." MAX="."/>
+</Data>
+<Metadata>
+<Variable NAME="_TYPE_" LABEL="Type" LENGTH="32" FORMAT="" TYPE="C"/>
+<Variable NAME="VARIABLE" LABEL="Variable" LENGTH="32" FORMAT="" TYPE="C"/>
+<Variable NAME="LABEL" LABEL="Label" LENGTH="256" FORMAT="" TYPE="C"/>
+<Variable NAME="FORMAT" LABEL="Format" LENGTH="32" FORMAT="" TYPE="C"/>
+<Variable NAME="LEVEL" LABEL="Measurement Level" LENGTH="32" FORMAT="" TYPE="C"/>
+<Variable NAME="TYPE" LABEL="Type" LENGTH="1" FORMAT="" TYPE="C"/>
+<Variable NAME="COST" LABEL="Cost" LENGTH="32" FORMAT="" TYPE="C"/>
+<Variable NAME="USE" LABEL="Use" LENGTH="1" FORMAT="" TYPE="C"/>
+<Variable NAME="MIN" LABEL="Minimum" LENGTH="8" FORMAT="" TYPE="N"/>
+<Variable NAME="MEAN" LABEL="Mean" LENGTH="8" FORMAT="" TYPE="N"/>
+<Variable NAME="MAX" LABEL="Maximum" LENGTH="8" FORMAT="" TYPE="N"/>
+</Metadata>
+</DecMeta>
+</damt>
+</EmTargetAttributes>
+<EmVariableAttributes>
+<DELTA Variable="donr" AttributeName="USE" AttributeValue="Y"/>
+</EmVariableAttributes>
+<EmFileProperties>
+<USERTRAINCODE Type="EXTERNAL" Extension="sas">
+<Data/>
+</USERTRAINCODE>
+<EMNOTES Type="EXTERNAL" Extension="txt">
+<Data/>
+</EMNOTES>
+</EmFileProperties>
+</PROPERTIES>
+</NODE>
+<NODE CLASS="SASHELP.EMCORE.EXTENSION.CLASS" COMPONENT="HPDMForest" ID="HPDMForest2" X="878" Y="749" DESCRIPTION="HP Forest" DIAGRAMID="_ROOT_" PARENTID="" TOOLTYPE="MODEL" TOOLPREFIX="HPDMForest">
+<PROPERTIES Location="CATALOG" Catalog="SASHELP.HPDM.HPDMForest.SOURCE" ToolType="MODEL" ALPHA="0.05" CATBINS="30" EXHAUSTIVE="5000" LEAFSIZEMETHOD="DEFAULT" LEAFFRACTION="0.00001" LEAFSIZE="1" MAXDEPTH="50" MAXTREES="100" MINCATSIZE="5" SEED="12345" SPLITSIZE="." NUMOBSMETHOD="PERCENTAGE" TRAINFRACTION="0.6" TRAINN="." VARS_TO_TRY="." MISSING="USEINSEARCH" MINUSEINSEARCH="1" MODELING="Y" VARSELECT="Y" VIMETHOD="LOSSREDUCTION" RBATOPNUM="25" RBACUT="0.01" ForceRun="N" RunAction="Train" Component="HPDMForest">
+<VariableProperties/>
+<EmTargetAttributes>
+<damt>
+<DecData Table="EMWS2.HPDMForest2_damt_DD">
+<Data>
+<Obs DAMT="0"/>
+<Obs DAMT="26"/>
+<Obs DAMT="7.3823038397"/>
+</Data>
+<Metadata>
+<Variable NAME="damt" LABEL="damt" LENGTH="8" FORMAT="" TYPE="N"/>
+</Metadata>
+</DecData>
+<DecMeta Table="EMWS2.HPDMForest2_damt_DM">
+<Data>
+<Obs _TYPE_="MATRIX" VARIABLE="" LABEL="" FORMAT="" LEVEL="PROFIT" TYPE="" COST="" USE="N" MIN="." MEAN="." MAX="."/>
+<Obs _TYPE_="TARGET" VARIABLE="damt" LABEL="damt" FORMAT="BEST." LEVEL="INTERVAL" TYPE="N" COST="" USE="" MIN="0" MEAN="7.3823038397" MAX="26"/>
+<Obs _TYPE_="PREDICTED" VARIABLE="P_damt" LABEL="Predicted: damt" FORMAT="" LEVEL="" TYPE="N" COST="" USE="" MIN="." MEAN="." MAX="."/>
+<Obs _TYPE_="RESIDUAL" VARIABLE="R_damt" LABEL="Residual: damt" FORMAT="" LEVEL="" TYPE="N" COST="" USE="" MIN="." MEAN="." MAX="."/>
+</Data>
+<Metadata>
+<Variable NAME="_TYPE_" LABEL="Type" LENGTH="32" FORMAT="" TYPE="C"/>
+<Variable NAME="VARIABLE" LABEL="Variable" LENGTH="32" FORMAT="" TYPE="C"/>
+<Variable NAME="LABEL" LABEL="Label" LENGTH="256" FORMAT="" TYPE="C"/>
+<Variable NAME="FORMAT" LABEL="Format" LENGTH="32" FORMAT="" TYPE="C"/>
+<Variable NAME="LEVEL" LABEL="Measurement Level" LENGTH="32" FORMAT="" TYPE="C"/>
+<Variable NAME="TYPE" LABEL="Type" LENGTH="1" FORMAT="" TYPE="C"/>
+<Variable NAME="COST" LABEL="Cost" LENGTH="32" FORMAT="" TYPE="C"/>
+<Variable NAME="USE" LABEL="Use" LENGTH="1" FORMAT="" TYPE="C"/>
+<Variable NAME="MIN" LABEL="Minimum" LENGTH="8" FORMAT="" TYPE="N"/>
+<Variable NAME="MEAN" LABEL="Mean" LENGTH="8" FORMAT="" TYPE="N"/>
+<Variable NAME="MAX" LABEL="Maximum" LENGTH="8" FORMAT="" TYPE="N"/>
+</Metadata>
+</DecMeta>
+</damt>
+</EmTargetAttributes>
+<EmVariableAttributes>
+<DELTA Variable="donr" AttributeName="USE" AttributeValue="Y"/>
+</EmVariableAttributes>
+<EmFileProperties>
+<USERTRAINCODE Type="EXTERNAL" Extension="sas">
+<Data/>
+</USERTRAINCODE>
+<EMNOTES Type="EXTERNAL" Extension="txt">
+<Data/>
+</EMNOTES>
+</EmFileProperties>
+</PROPERTIES>
+</NODE>
+<NODE CLASS="SASHELP.EMASSMT.ASSESS.CLASS" COMPONENT="ModelCompare" ID="MdlComp" X="1215" Y="202" DESCRIPTION="Model Comparison" DIAGRAMID="_ROOT_" PARENTID="" TOOLTYPE="ASSESS" TOOLPREFIX="MdlComp">
+<PROPERTIES NumberOfReportedLevels="1E-6" NormalizeReportingVariables="Y" DecileBin="20" LiftEpsilon="1E-6" ProfitEpsilon="1E-6" RoiEpsilon="1E-6" ScoreDistBin="20" RocChart="Y" RocEpsilon="0.01" AssessAllTargetLevels="N" SelectionData="DEFAULT" HPCriteria="DEFAULT" intervalViyaCriteria="DEFAULT" classViyaCriteria="DEFAULT" SelectionTable="TRAIN" SelectionCriteria="DEFAULT" SelectionDepth="10" NumberofBins="20" RecomputeAssess="N" TargetName="damt" ModelId="Tree" ModelDescription="6 Branch 20 Deep" ModelCriteria="Valid: Average Squared Error" ForceRun="N" RunAction="Train" Component="ModelCompare" StatisticUsed="_VASE_" TargetLabel="damt">
+<VariableProperties/>
+<EmVariableAttributes/>
+<EmTargetAttributes/>
+<EmFileProperties>
+<EMNOTES Type="EXTERNAL" Extension="txt">
+<Data/>
+</EMNOTES>
+</EmFileProperties>
+</PROPERTIES>
+</NODE>
+<NODE CLASS="SASHELP.EMASSMT.ASSESS.CLASS" COMPONENT="ModelCompare" ID="MdlComp2" X="1229" Y="389" DESCRIPTION="Model Comparison" DIAGRAMID="_ROOT_" PARENTID="" TOOLTYPE="ASSESS" TOOLPREFIX="MdlComp">
+<PROPERTIES NumberOfReportedLevels="1E-6" NormalizeReportingVariables="Y" DecileBin="20" LiftEpsilon="1E-6" ProfitEpsilon="1E-6" RoiEpsilon="1E-6" ScoreDistBin="20" RocChart="Y" RocEpsilon="0.01" AssessAllTargetLevels="N" SelectionData="DEFAULT" HPCriteria="DEFAULT" intervalViyaCriteria="DEFAULT" classViyaCriteria="DEFAULT" SelectionTable="TRAIN" SelectionCriteria="DEFAULT" SelectionDepth="10" NumberofBins="20" RecomputeAssess="N" TargetName="damt" ModelId="Neural" ModelDescription="Neural Network 3" ModelCriteria="Valid: Average Squared Error" ForceRun="N" RunAction="Train" Component="ModelCompare" StatisticUsed="_VASE_" TargetLabel="damt">
+<VariableProperties/>
+<EmTargetAttributes/>
+<EmVariableAttributes/>
+<EmFileProperties>
+<EMNOTES Type="EXTERNAL" Extension="txt">
+<Data/>
+</EMNOTES>
+</EmFileProperties>
+</PROPERTIES>
+</NODE>
+<NODE CLASS="SASHELP.EMASSMT.ASSESS.CLASS" COMPONENT="ModelCompare" ID="MdlComp3" X="1443" Y="203" DESCRIPTION="Model Comparison" DIAGRAMID="_ROOT_" PARENTID="" TOOLTYPE="ASSESS" TOOLPREFIX="MdlComp">
+<PROPERTIES NumberOfReportedLevels="1E-6" NormalizeReportingVariables="Y" DecileBin="20" LiftEpsilon="1E-6" ProfitEpsilon="1E-6" RoiEpsilon="1E-6" ScoreDistBin="20" RocChart="Y" RocEpsilon="0.01" AssessAllTargetLevels="N" SelectionData="DEFAULT" HPCriteria="DEFAULT" intervalViyaCriteria="DEFAULT" classViyaCriteria="DEFAULT" SelectionTable="TRAIN" SelectionCriteria="DEFAULT" SelectionDepth="10" NumberofBins="20" RecomputeAssess="N" TargetName="damt" ModelId="Neural" ModelDescription="Neural Network 3" ModelCriteria="Valid: Average Squared Error" ForceRun="N" RunAction="Train" Component="ModelCompare" StatisticUsed="_VASE_" TargetLabel="damt">
+<VariableProperties/>
+<EmTargetAttributes/>
+<EmVariableAttributes/>
+<EmFileProperties>
+<EMNOTES Type="EXTERNAL" Extension="txt">
+<Data/>
+</EMNOTES>
+</EmFileProperties>
+</PROPERTIES>
+</NODE>
+<NODE CLASS="SASHELP.EMASSMT.ASSESS.CLASS" COMPONENT="ModelCompare" ID="MdlComp4" X="1210" Y="758" DESCRIPTION="Model Comparison" DIAGRAMID="_ROOT_" PARENTID="" TOOLTYPE="ASSESS" TOOLPREFIX="MdlComp">
+<PROPERTIES NumberOfReportedLevels="1E-6" NormalizeReportingVariables="Y" DecileBin="20" LiftEpsilon="1E-6" ProfitEpsilon="1E-6" RoiEpsilon="1E-6" ScoreDistBin="20" RocChart="Y" RocEpsilon="0.01" AssessAllTargetLevels="N" SelectionData="DEFAULT" HPCriteria="DEFAULT" intervalViyaCriteria="DEFAULT" classViyaCriteria="DEFAULT" SelectionTable="TRAIN" SelectionCriteria="DEFAULT" SelectionDepth="10" NumberofBins="20" RecomputeAssess="N" TargetName="damt" ModelId="Boost2" ModelDescription="Gradient Boosting" ModelCriteria="Valid: Average Squared Error" ForceRun="N" RunAction="Train" Component="ModelCompare" StatisticUsed="_VASE_" TargetLabel="damt">
+<VariableProperties/>
+<EmTargetAttributes/>
+<EmVariableAttributes/>
+<EmFileProperties>
+<EMNOTES Type="EXTERNAL" Extension="txt">
+<Data/>
+</EMNOTES>
+</EmFileProperties>
+</PROPERTIES>
+</NODE>
+<NODE CLASS="SASHELP.EMASSMT.ASSESS.CLASS" COMPONENT="ModelCompare" ID="MdlComp5" X="1224" Y="945" DESCRIPTION="Model Comparison" DIAGRAMID="_ROOT_" PARENTID="" TOOLTYPE="ASSESS" TOOLPREFIX="MdlComp">
+<PROPERTIES NumberOfReportedLevels="1E-6" NormalizeReportingVariables="Y" DecileBin="20" LiftEpsilon="1E-6" ProfitEpsilon="1E-6" RoiEpsilon="1E-6" ScoreDistBin="20" RocChart="Y" RocEpsilon="0.01" AssessAllTargetLevels="N" SelectionData="DEFAULT" HPCriteria="DEFAULT" intervalViyaCriteria="DEFAULT" classViyaCriteria="DEFAULT" SelectionTable="TRAIN" SelectionCriteria="DEFAULT" SelectionDepth="10" NumberofBins="20" RecomputeAssess="N" TargetName="damt" ModelId="Neural3" ModelDescription="Neural Network 3" ModelCriteria="Valid: Average Squared Error" ForceRun="N" RunAction="Train" Component="ModelCompare" StatisticUsed="_VASE_" TargetLabel="damt">
+<VariableProperties/>
+<EmTargetAttributes/>
+<EmVariableAttributes/>
+<EmFileProperties>
+<EMNOTES Type="EXTERNAL" Extension="txt">
+<Data/>
+</EMNOTES>
+</EmFileProperties>
+</PROPERTIES>
+</NODE>
+<NODE CLASS="SASHELP.EMASSMT.ASSESS.CLASS" COMPONENT="ModelCompare" ID="MdlComp6" X="1438" Y="759" DESCRIPTION="Model Comparison" DIAGRAMID="_ROOT_" PARENTID="" TOOLTYPE="ASSESS" TOOLPREFIX="MdlComp">
+<PROPERTIES NumberOfReportedLevels="1E-6" NormalizeReportingVariables="Y" DecileBin="20" LiftEpsilon="1E-6" ProfitEpsilon="1E-6" RoiEpsilon="1E-6" ScoreDistBin="20" RocChart="Y" RocEpsilon="0.01" AssessAllTargetLevels="N" SelectionData="DEFAULT" HPCriteria="DEFAULT" intervalViyaCriteria="DEFAULT" classViyaCriteria="DEFAULT" SelectionTable="TRAIN" SelectionCriteria="DEFAULT" SelectionDepth="10" NumberofBins="20" RecomputeAssess="N" TargetName="damt" ModelId="Neural3" ModelDescription="Neural Network 3" ModelCriteria="Valid: Average Squared Error" ForceRun="N" RunAction="Train" Component="ModelCompare" StatisticUsed="_VASE_" TargetLabel="damt">
+<VariableProperties/>
+<EmTargetAttributes/>
+<EmVariableAttributes/>
+<EmFileProperties>
+<EMNOTES Type="EXTERNAL" Extension="txt">
+<Data/>
+</EMNOTES>
+</EmFileProperties>
+</PROPERTIES>
+</NODE>
+<NODE CLASS="SASHELP.EMMODL.NEURAL.CLASS" COMPONENT="NeuralNetwork" ID="Neural" X="881" Y="364" DESCRIPTION="Neural Network 3" DIAGRAMID="_ROOT_" PARENTID="" TOOLTYPE="MODEL" TOOLPREFIX="Neural">
+<PROPERTIES UseEstimates="N" NetworkArchitecture="MLP" DirectConnection="N" Hidden="3" Prelim="Y" PreliminaryRuns="5" PrelimMaxiter="10" PrelimMaxTime="1 HOUR" Maxiter="50" Maxtime="30 MINUTES" TrainingTechnique="BPROP" ConvDefaults="Y" AbsConvValue="-1.34078E154" AbsFValue="0" AbsFTime="1" AbsGValue="0.00001" AbsGTime="1" AbsXValue="1E-8" AbsXTime="1" FConvValue="0" FConvTime="1" GConvValue="1E-6" GConvTime="1" ModelSelectionCriterion="MISCLASSIFICATION" SuppressOutput="N" Residuals="Y" Standardizations="N" HiddenUnits="N" TrainCode="" PrelimOutest="" Outest="" Outfit="" InitialDs="" CodefileRes="" CodefileNoRes="" AddHidden="Y" HiddenCombFunction="DEFAULT" HiddenActivation="DEFAULT" HiddenBias="Y" TargetCombFunction="DEFAULT" TargetActivation="DEFAULT" TargetError="DEFAULT" TargetBias="Y" InitialSeed="12345" RandDist="NORMAL" RandScale="0.1" RandLoc="0" InputStandardization="STD" WeightDecay="0" Accelerate="1.2" Decelerate="0.5" Learn="0.1" MaxLearn="50" MinLearn="0.00001" Momentum="0" MaxMomentum="1.75" Tilt="0" ForceRun="N" RunAction="Train" Component="NeuralNetwork">
+<VariableProperties/>
+<EmTargetAttributes>
+<damt>
+<DecData Table="EMWS2.Neural_damt_DD">
+<Data>
+<Obs DAMT="0"/>
+<Obs DAMT="27"/>
+<Obs DAMT="7.1801951916"/>
+</Data>
+<Metadata>
+<Variable NAME="damt" LABEL="damt" LENGTH="8" FORMAT="" TYPE="N"/>
+</Metadata>
+</DecData>
+<DecMeta Table="EMWS2.Neural_damt_DM">
+<Data>
+<Obs _TYPE_="MATRIX" VARIABLE="" LABEL="" FORMAT="" LEVEL="PROFIT" TYPE="" COST="" USE="N" MIN="." MEAN="." MAX="."/>
+<Obs _TYPE_="TARGET" VARIABLE="damt" LABEL="damt" FORMAT="BEST." LEVEL="INTERVAL" TYPE="N" COST="" USE="" MIN="0" MEAN="7.1801951916" MAX="27"/>
+<Obs _TYPE_="PREDICTED" VARIABLE="P_damt" LABEL="Predicted: damt" FORMAT="" LEVEL="" TYPE="N" COST="" USE="" MIN="." MEAN="." MAX="."/>
+<Obs _TYPE_="RESIDUAL" VARIABLE="R_damt" LABEL="Residual: damt" FORMAT="" LEVEL="" TYPE="N" COST="" USE="" MIN="." MEAN="." MAX="."/>
+</Data>
+<Metadata>
+<Variable NAME="_TYPE_" LABEL="Type" LENGTH="32" FORMAT="" TYPE="C"/>
+<Variable NAME="VARIABLE" LABEL="Variable" LENGTH="32" FORMAT="" TYPE="C"/>
+<Variable NAME="LABEL" LABEL="Label" LENGTH="256" FORMAT="" TYPE="C"/>
+<Variable NAME="FORMAT" LABEL="Format" LENGTH="32" FORMAT="" TYPE="C"/>
+<Variable NAME="LEVEL" LABEL="Measurement Level" LENGTH="32" FORMAT="" TYPE="C"/>
+<Variable NAME="TYPE" LABEL="Type" LENGTH="1" FORMAT="" TYPE="C"/>
+<Variable NAME="COST" LABEL="Cost" LENGTH="32" FORMAT="" TYPE="C"/>
+<Variable NAME="USE" LABEL="Use" LENGTH="1" FORMAT="" TYPE="C"/>
+<Variable NAME="MIN" LABEL="Minimum" LENGTH="8" FORMAT="" TYPE="N"/>
+<Variable NAME="MEAN" LABEL="Mean" LENGTH="8" FORMAT="" TYPE="N"/>
+<Variable NAME="MAX" LABEL="Maximum" LENGTH="8" FORMAT="" TYPE="N"/>
+</Metadata>
+</DecMeta>
+</damt>
+</EmTargetAttributes>
+<EmVariableAttributes>
+<DELTA Variable="donr" AttributeName="USE" AttributeValue="Y"/>
+</EmVariableAttributes>
+<EmFileProperties>
+<EMNOTES Type="EXTERNAL" Extension="txt">
+<Data/>
+</EMNOTES>
+</EmFileProperties>
+</PROPERTIES>
+</NODE>
+<NODE CLASS="SASHELP.EMMODL.NEURAL.CLASS" COMPONENT="NeuralNetwork" ID="Neural2" X="880" Y="410" DESCRIPTION="Neural Network 16" DIAGRAMID="_ROOT_" PARENTID="" TOOLTYPE="MODEL" TOOLPREFIX="Neural">
+<PROPERTIES UseEstimates="N" NetworkArchitecture="MLP" DirectConnection="Y" Hidden="16" Prelim="Y" PreliminaryRuns="5" PrelimMaxiter="10" PrelimMaxTime="1 HOUR" Maxiter="50" Maxtime="4 HOURS" TrainingTechnique="DEFAULT" ConvDefaults="Y" AbsConvValue="-1.34078E154" AbsFValue="0" AbsFTime="1" AbsGValue="0.00001" AbsGTime="1" AbsXValue="1E-8" AbsXTime="1" FConvValue="0" FConvTime="1" GConvValue="1E-6" GConvTime="1" ModelSelectionCriterion="MISCLASSIFICATION" SuppressOutput="N" Residuals="Y" Standardizations="N" HiddenUnits="N" TrainCode="" PrelimOutest="" Outest="" Outfit="" InitialDs="" CodefileRes="" CodefileNoRes="" AddHidden="Y" HiddenCombFunction="DEFAULT" HiddenActivation="DEFAULT" HiddenBias="Y" TargetCombFunction="DEFAULT" TargetActivation="DEFAULT" TargetError="DEFAULT" TargetBias="Y" InitialSeed="12345" RandDist="NORMAL" RandScale="0.1" RandLoc="0" InputStandardization="STD" WeightDecay="0" Accelerate="1.2" Decelerate="0.5" Learn="0.1" MaxLearn="50" MinLearn="0.00001" Momentum="0" MaxMomentum="1.75" Tilt="0" ForceRun="N" RunAction="Train" Component="NeuralNetwork">
+<VariableProperties/>
+<EmTargetAttributes>
+<damt>
+<DecData Table="EMWS2.Neural2_damt_DD">
+<Data>
+<Obs DAMT="0"/>
+<Obs DAMT="27"/>
+<Obs DAMT="7.1801951916"/>
+</Data>
+<Metadata>
+<Variable NAME="damt" LABEL="damt" LENGTH="8" FORMAT="" TYPE="N"/>
+</Metadata>
+</DecData>
+<DecMeta Table="EMWS2.Neural2_damt_DM">
+<Data>
+<Obs _TYPE_="MATRIX" VARIABLE="" LABEL="" FORMAT="" LEVEL="PROFIT" TYPE="" COST="" USE="N" MIN="." MEAN="." MAX="."/>
+<Obs _TYPE_="TARGET" VARIABLE="damt" LABEL="damt" FORMAT="BEST." LEVEL="INTERVAL" TYPE="N" COST="" USE="" MIN="0" MEAN="7.1801951916" MAX="27"/>
+<Obs _TYPE_="PREDICTED" VARIABLE="P_damt" LABEL="Predicted: damt" FORMAT="" LEVEL="" TYPE="N" COST="" USE="" MIN="." MEAN="." MAX="."/>
+<Obs _TYPE_="RESIDUAL" VARIABLE="R_damt" LABEL="Residual: damt" FORMAT="" LEVEL="" TYPE="N" COST="" USE="" MIN="." MEAN="." MAX="."/>
+</Data>
+<Metadata>
+<Variable NAME="_TYPE_" LABEL="Type" LENGTH="32" FORMAT="" TYPE="C"/>
+<Variable NAME="VARIABLE" LABEL="Variable" LENGTH="32" FORMAT="" TYPE="C"/>
+<Variable NAME="LABEL" LABEL="Label" LENGTH="256" FORMAT="" TYPE="C"/>
+<Variable NAME="FORMAT" LABEL="Format" LENGTH="32" FORMAT="" TYPE="C"/>
+<Variable NAME="LEVEL" LABEL="Measurement Level" LENGTH="32" FORMAT="" TYPE="C"/>
+<Variable NAME="TYPE" LABEL="Type" LENGTH="1" FORMAT="" TYPE="C"/>
+<Variable NAME="COST" LABEL="Cost" LENGTH="32" FORMAT="" TYPE="C"/>
+<Variable NAME="USE" LABEL="Use" LENGTH="1" FORMAT="" TYPE="C"/>
+<Variable NAME="MIN" LABEL="Minimum" LENGTH="8" FORMAT="" TYPE="N"/>
+<Variable NAME="MEAN" LABEL="Mean" LENGTH="8" FORMAT="" TYPE="N"/>
+<Variable NAME="MAX" LABEL="Maximum" LENGTH="8" FORMAT="" TYPE="N"/>
+</Metadata>
+</DecMeta>
+</damt>
+</EmTargetAttributes>
+<EmVariableAttributes>
+<DELTA Variable="donr" AttributeName="USE" AttributeValue="Y"/>
+</EmVariableAttributes>
+<EmFileProperties>
+<EMNOTES Type="EXTERNAL" Extension="txt">
+<Data/>
+</EMNOTES>
+</EmFileProperties>
+</PROPERTIES>
+</NODE>
+<NODE CLASS="SASHELP.EMMODL.NEURAL.CLASS" COMPONENT="NeuralNetwork" ID="Neural3" X="876" Y="920" DESCRIPTION="Neural Network 3" DIAGRAMID="_ROOT_" PARENTID="" TOOLTYPE="MODEL" TOOLPREFIX="Neural">
+<PROPERTIES UseEstimates="N" NetworkArchitecture="MLP" DirectConnection="N" Hidden="3" Prelim="Y" PreliminaryRuns="5" PrelimMaxiter="10" PrelimMaxTime="1 HOUR" Maxiter="50" Maxtime="30 MINUTES" TrainingTechnique="BPROP" ConvDefaults="Y" AbsConvValue="-1.34078E154" AbsFValue="0" AbsFTime="1" AbsGValue="0.00001" AbsGTime="1" AbsXValue="1E-8" AbsXTime="1" FConvValue="0" FConvTime="1" GConvValue="1E-6" GConvTime="1" ModelSelectionCriterion="MISCLASSIFICATION" SuppressOutput="N" Residuals="Y" Standardizations="N" HiddenUnits="N" TrainCode="" PrelimOutest="" Outest="" Outfit="" InitialDs="" CodefileRes="" CodefileNoRes="" AddHidden="Y" HiddenCombFunction="DEFAULT" HiddenActivation="DEFAULT" HiddenBias="Y" TargetCombFunction="DEFAULT" TargetActivation="DEFAULT" TargetError="DEFAULT" TargetBias="Y" InitialSeed="12345" RandDist="NORMAL" RandScale="0.1" RandLoc="0" InputStandardization="STD" WeightDecay="0" Accelerate="1.2" Decelerate="0.5" Learn="0.1" MaxLearn="50" MinLearn="0.00001" Momentum="0" MaxMomentum="1.75" Tilt="0" ForceRun="N" RunAction="Train" Component="NeuralNetwork">
+<VariableProperties/>
+<EmTargetAttributes>
+<damt>
+<DecData Table="EMWS2.Neural3_damt_DD">
+<Data>
+<Obs DAMT="0"/>
+<Obs DAMT="26"/>
+<Obs DAMT="7.3823038397"/>
+</Data>
+<Metadata>
+<Variable NAME="damt" LABEL="damt" LENGTH="8" FORMAT="" TYPE="N"/>
+</Metadata>
+</DecData>
+<DecMeta Table="EMWS2.Neural3_damt_DM">
+<Data>
+<Obs _TYPE_="MATRIX" VARIABLE="" LABEL="" FORMAT="" LEVEL="PROFIT" TYPE="" COST="" USE="N" MIN="." MEAN="." MAX="."/>
+<Obs _TYPE_="TARGET" VARIABLE="damt" LABEL="damt" FORMAT="BEST." LEVEL="INTERVAL" TYPE="N" COST="" USE="" MIN="0" MEAN="7.3823038397" MAX="26"/>
+<Obs _TYPE_="PREDICTED" VARIABLE="P_damt" LABEL="Predicted: damt" FORMAT="" LEVEL="" TYPE="N" COST="" USE="" MIN="." MEAN="." MAX="."/>
+<Obs _TYPE_="RESIDUAL" VARIABLE="R_damt" LABEL="Residual: damt" FORMAT="" LEVEL="" TYPE="N" COST="" USE="" MIN="." MEAN="." MAX="."/>
+</Data>
+<Metadata>
+<Variable NAME="_TYPE_" LABEL="Type" LENGTH="32" FORMAT="" TYPE="C"/>
+<Variable NAME="VARIABLE" LABEL="Variable" LENGTH="32" FORMAT="" TYPE="C"/>
+<Variable NAME="LABEL" LABEL="Label" LENGTH="256" FORMAT="" TYPE="C"/>
+<Variable NAME="FORMAT" LABEL="Format" LENGTH="32" FORMAT="" TYPE="C"/>
+<Variable NAME="LEVEL" LABEL="Measurement Level" LENGTH="32" FORMAT="" TYPE="C"/>
+<Variable NAME="TYPE" LABEL="Type" LENGTH="1" FORMAT="" TYPE="C"/>
+<Variable NAME="COST" LABEL="Cost" LENGTH="32" FORMAT="" TYPE="C"/>
+<Variable NAME="USE" LABEL="Use" LENGTH="1" FORMAT="" TYPE="C"/>
+<Variable NAME="MIN" LABEL="Minimum" LENGTH="8" FORMAT="" TYPE="N"/>
+<Variable NAME="MEAN" LABEL="Mean" LENGTH="8" FORMAT="" TYPE="N"/>
+<Variable NAME="MAX" LABEL="Maximum" LENGTH="8" FORMAT="" TYPE="N"/>
+</Metadata>
+</DecMeta>
+</damt>
+</EmTargetAttributes>
+<EmVariableAttributes>
+<DELTA Variable="donr" AttributeName="USE" AttributeValue="Y"/>
+</EmVariableAttributes>
+<EmFileProperties>
+<EMNOTES Type="EXTERNAL" Extension="txt">
+<Data/>
+</EMNOTES>
+</EmFileProperties>
+</PROPERTIES>
+</NODE>
+<NODE CLASS="SASHELP.EMMODL.NEURAL.CLASS" COMPONENT="NeuralNetwork" ID="Neural4" X="875" Y="966" DESCRIPTION="Neural Network 16" DIAGRAMID="_ROOT_" PARENTID="" TOOLTYPE="MODEL" TOOLPREFIX="Neural">
+<PROPERTIES UseEstimates="N" NetworkArchitecture="MLP" DirectConnection="Y" Hidden="16" Prelim="Y" PreliminaryRuns="5" PrelimMaxiter="10" PrelimMaxTime="1 HOUR" Maxiter="50" Maxtime="4 HOURS" TrainingTechnique="DEFAULT" ConvDefaults="Y" AbsConvValue="-1.34078E154" AbsFValue="0" AbsFTime="1" AbsGValue="0.00001" AbsGTime="1" AbsXValue="1E-8" AbsXTime="1" FConvValue="0" FConvTime="1" GConvValue="1E-6" GConvTime="1" ModelSelectionCriterion="MISCLASSIFICATION" SuppressOutput="N" Residuals="Y" Standardizations="N" HiddenUnits="N" TrainCode="" PrelimOutest="" Outest="" Outfit="" InitialDs="" CodefileRes="" CodefileNoRes="" AddHidden="Y" HiddenCombFunction="DEFAULT" HiddenActivation="DEFAULT" HiddenBias="Y" TargetCombFunction="DEFAULT" TargetActivation="DEFAULT" TargetError="DEFAULT" TargetBias="Y" InitialSeed="12345" RandDist="NORMAL" RandScale="0.1" RandLoc="0" InputStandardization="STD" WeightDecay="0" Accelerate="1.2" Decelerate="0.5" Learn="0.1" MaxLearn="50" MinLearn="0.00001" Momentum="0" MaxMomentum="1.75" Tilt="0" ForceRun="N" RunAction="Train" Component="NeuralNetwork">
+<VariableProperties/>
+<EmTargetAttributes>
+<damt>
+<DecData Table="EMWS2.Neural4_damt_DD">
+<Data>
+<Obs DAMT="0"/>
+<Obs DAMT="26"/>
+<Obs DAMT="7.3823038397"/>
+</Data>
+<Metadata>
+<Variable NAME="damt" LABEL="damt" LENGTH="8" FORMAT="" TYPE="N"/>
+</Metadata>
+</DecData>
+<DecMeta Table="EMWS2.Neural4_damt_DM">
+<Data>
+<Obs _TYPE_="MATRIX" VARIABLE="" LABEL="" FORMAT="" LEVEL="PROFIT" TYPE="" COST="" USE="N" MIN="." MEAN="." MAX="."/>
+<Obs _TYPE_="TARGET" VARIABLE="damt" LABEL="damt" FORMAT="BEST." LEVEL="INTERVAL" TYPE="N" COST="" USE="" MIN="0" MEAN="7.3823038397" MAX="26"/>
+<Obs _TYPE_="PREDICTED" VARIABLE="P_damt" LABEL="Predicted: damt" FORMAT="" LEVEL="" TYPE="N" COST="" USE="" MIN="." MEAN="." MAX="."/>
+<Obs _TYPE_="RESIDUAL" VARIABLE="R_damt" LABEL="Residual: damt" FORMAT="" LEVEL="" TYPE="N" COST="" USE="" MIN="." MEAN="." MAX="."/>
+</Data>
+<Metadata>
+<Variable NAME="_TYPE_" LABEL="Type" LENGTH="32" FORMAT="" TYPE="C"/>
+<Variable NAME="VARIABLE" LABEL="Variable" LENGTH="32" FORMAT="" TYPE="C"/>
+<Variable NAME="LABEL" LABEL="Label" LENGTH="256" FORMAT="" TYPE="C"/>
+<Variable NAME="FORMAT" LABEL="Format" LENGTH="32" FORMAT="" TYPE="C"/>
+<Variable NAME="LEVEL" LABEL="Measurement Level" LENGTH="32" FORMAT="" TYPE="C"/>
+<Variable NAME="TYPE" LABEL="Type" LENGTH="1" FORMAT="" TYPE="C"/>
+<Variable NAME="COST" LABEL="Cost" LENGTH="32" FORMAT="" TYPE="C"/>
+<Variable NAME="USE" LABEL="Use" LENGTH="1" FORMAT="" TYPE="C"/>
+<Variable NAME="MIN" LABEL="Minimum" LENGTH="8" FORMAT="" TYPE="N"/>
+<Variable NAME="MEAN" LABEL="Mean" LENGTH="8" FORMAT="" TYPE="N"/>
+<Variable NAME="MAX" LABEL="Maximum" LENGTH="8" FORMAT="" TYPE="N"/>
+</Metadata>
+</DecMeta>
+</damt>
+</EmTargetAttributes>
+<EmVariableAttributes>
+<DELTA Variable="donr" AttributeName="USE" AttributeValue="Y"/>
+</EmVariableAttributes>
+<EmFileProperties>
+<EMNOTES Type="EXTERNAL" Extension="txt">
+<Data/>
+</EMNOTES>
+</EmFileProperties>
+</PROPERTIES>
+</NODE>
+<NODE CLASS="SASHELP.EMSAMP.EMDPART.CLASS" COMPONENT="Partition" ID="Part" X="544" Y="387" DESCRIPTION="Data Partition" DIAGRAMID="_ROOT_" PARENTID="" TOOLTYPE="SAMPLE" TOOLPREFIX="Part">
+<PROPERTIES Method="DEFAULT" TrainPct="70" ValidatePct="30" TestPct="0" RandomSeed="12345" OutputType="DATA" IntervalDistribution="Y" ClassDistribution="Y" ForceRun="N" RunAction="Train" Component="Partition">
+<VariableProperties/>
+<EmVariableAttributes/>
+<EmTargetAttributes/>
+<EmFileProperties>
+<EMNOTES Type="EXTERNAL" Extension="txt">
+<Data/>
+</EMNOTES>
+</EmFileProperties>
+</PROPERTIES>
+</NODE>
+<NODE CLASS="SASHELP.EMSAMP.EMDPART.CLASS" COMPONENT="Partition" ID="Part2" X="552" Y="516" DESCRIPTION="Data Partition" DIAGRAMID="_ROOT_" PARENTID="" TOOLTYPE="SAMPLE" TOOLPREFIX="Part">
+<PROPERTIES Method="DEFAULT" TrainPct="70" ValidatePct="30" TestPct="0" RandomSeed="12345" OutputType="DATA" IntervalDistribution="Y" ClassDistribution="Y" ForceRun="N" RunAction="Train" Component="Partition">
+<VariableProperties/>
+<EmTargetAttributes/>
+<EmVariableAttributes/>
+<EmFileProperties>
+<EMNOTES Type="EXTERNAL" Extension="txt">
+<Data/>
+</EMNOTES>
+</EmFileProperties>
+</PROPERTIES>
+</NODE>
+<NODE CLASS="SASHELP.EMEXPL.MULTIPLOT.CLASS" COMPONENT="MultiPlot" ID="Plot" X="457" Y="200" DESCRIPTION="MultiPlot" DIAGRAMID="_ROOT_" PARENTID="" TOOLTYPE="EXPLORE" TOOLPREFIX="Plot">
+<PROPERTIES OutputCatalog="WORK.GOUT" TrainCode="" NumericThreshold="20" Orientation="VERTICAL" Statistic="FREQ" ShowValues="Y" IncludeMissing="Y" IntervalTargetChart="MEAN" ChartType="CHART" IntTargetRegression="LINEAR" DisplayRegEquation="N" ConfidenceInterval="Y" ImageFormat="GIF" ForceRun="N" RunAction="Train" Component="MultiPlot">
+<VariableProperties/>
+<EmVariableAttributes>
+<DELTA Variable="damt" AttributeName="USE" AttributeValue="D"/>
+<DELTA Variable="damt" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="donr" AttributeName="USE" AttributeValue="Y"/>
+<DELTA Variable="donr" AttributeName="ROLE" AttributeValue="TARGET"/>
+</EmVariableAttributes>
+<EmTargetAttributes/>
+<EmFileProperties>
+<EMNOTES Type="EXTERNAL" Extension="txt">
+<Data/>
+</EMNOTES>
+</EmFileProperties>
+</PROPERTIES>
+</NODE>
+<NODE CLASS="SASHELP.EMMODL.REGRESSION.CLASS" COMPONENT="Regression" ID="Reg" X="883" Y="69" DESCRIPTION="Logistic Regression" DIAGRAMID="_ROOT_" PARENTID="" TOOLTYPE="MODEL" TOOLPREFIX="Reg">
+<PROPERTIES MainEffect="Y" TwoFactor="N" Polynomial="N" PolynomialDegree="2" Terms="N" Error="LOGISTIC" LinkFunction="LOGIT" SuppressIntercept="N" InputCoding="DEVIATION" MinResourceUse="N" ModelSelection="NONE" SelectionCriterion="DEFAULT" SelectionDefault="Y" Sequential="N" SlEntry="0.05" SlStay="0.05" Start="0" Stop="0" Force="0" Hierarchy="CLASS" Rule="NONE" MaxStep="." StepOutput="N" OptimizationTechnique="DEFAULT" ModelDefaults="Y" MaxIterations="." MaxFunctionCalls="." MaxCPUTime="1 HOUR" ConvDefaults="Y" AbsConvValue="-1.34078E154" AbsFValue="0" AbsFTime="1" AbsGValue="0.00001" AbsGTime="1" AbsXValue="1E-8" AbsXTime="1" FConvValue="0" FConvTimes="1" GConvValue="1E-6" GConvTimes="1" ClParm="N" Covout="N" CovB="N" CorB="N" Simple="N" SuppressOutput="N" Details="N" PrintDesignMatrix="N" SASSPDS="N" Performance="N" ExcludedVariable="REJECT" ForceRun="N" RunAction="Train" Component="Regression" Interactions="">
+<VariableProperties/>
+<EmVariableAttributes>
+<DELTA Variable="donr" AttributeName="USE" AttributeValue="Y"/>
+</EmVariableAttributes>
+<EmTargetAttributes>
+<damt>
+<DecData Table="EMWS2.Reg_damt_DD">
+<Data>
+<Obs DAMT="0"/>
+<Obs DAMT="27"/>
+<Obs DAMT="7.1801951916"/>
+</Data>
+<Metadata>
+<Variable NAME="damt" LABEL="damt" LENGTH="8" FORMAT="" TYPE="N"/>
+</Metadata>
+</DecData>
+<DecMeta Table="EMWS2.Reg_damt_DM">
+<Data>
+<Obs _TYPE_="MATRIX" VARIABLE="" LABEL="" FORMAT="" LEVEL="PROFIT" TYPE="" COST="" USE="N" MIN="." MEAN="." MAX="."/>
+<Obs _TYPE_="TARGET" VARIABLE="damt" LABEL="damt" FORMAT="BEST." LEVEL="INTERVAL" TYPE="N" COST="" USE="" MIN="0" MEAN="7.1801951916" MAX="27"/>
+<Obs _TYPE_="PREDICTED" VARIABLE="P_damt" LABEL="Predicted: damt" FORMAT="" LEVEL="" TYPE="N" COST="" USE="" MIN="." MEAN="." MAX="."/>
+<Obs _TYPE_="RESIDUAL" VARIABLE="R_damt" LABEL="Residual: damt" FORMAT="" LEVEL="" TYPE="N" COST="" USE="" MIN="." MEAN="." MAX="."/>
+</Data>
+<Metadata>
+<Variable NAME="_TYPE_" LABEL="Type" LENGTH="32" FORMAT="" TYPE="C"/>
+<Variable NAME="VARIABLE" LABEL="Variable" LENGTH="32" FORMAT="" TYPE="C"/>
+<Variable NAME="LABEL" LABEL="Label" LENGTH="256" FORMAT="" TYPE="C"/>
+<Variable NAME="FORMAT" LABEL="Format" LENGTH="32" FORMAT="" TYPE="C"/>
+<Variable NAME="LEVEL" LABEL="Measurement Level" LENGTH="32" FORMAT="" TYPE="C"/>
+<Variable NAME="TYPE" LABEL="Type" LENGTH="1" FORMAT="" TYPE="C"/>
+<Variable NAME="COST" LABEL="Cost" LENGTH="32" FORMAT="" TYPE="C"/>
+<Variable NAME="USE" LABEL="Use" LENGTH="1" FORMAT="" TYPE="C"/>
+<Variable NAME="MIN" LABEL="Minimum" LENGTH="8" FORMAT="" TYPE="N"/>
+<Variable NAME="MEAN" LABEL="Mean" LENGTH="8" FORMAT="" TYPE="N"/>
+<Variable NAME="MAX" LABEL="Maximum" LENGTH="8" FORMAT="" TYPE="N"/>
+</Metadata>
+</DecMeta>
+</damt>
+</EmTargetAttributes>
+<EmFileProperties>
+<EMNOTES Type="EXTERNAL" Extension="txt">
+<Data/>
+</EMNOTES>
+</EmFileProperties>
+</PROPERTIES>
+</NODE>
+<NODE CLASS="SASHELP.EMMODL.REGRESSION.CLASS" COMPONENT="Regression" ID="Reg2" X="878" Y="625" DESCRIPTION="Logistic Regression" DIAGRAMID="_ROOT_" PARENTID="" TOOLTYPE="MODEL" TOOLPREFIX="Reg">
+<PROPERTIES MainEffect="Y" TwoFactor="N" Polynomial="N" PolynomialDegree="2" Terms="N" Error="LOGISTIC" LinkFunction="LOGIT" SuppressIntercept="N" InputCoding="DEVIATION" MinResourceUse="N" ModelSelection="NONE" SelectionCriterion="DEFAULT" SelectionDefault="Y" Sequential="N" SlEntry="0.05" SlStay="0.05" Start="0" Stop="0" Force="0" Hierarchy="CLASS" Rule="NONE" MaxStep="." StepOutput="N" OptimizationTechnique="DEFAULT" ModelDefaults="Y" MaxIterations="." MaxFunctionCalls="." MaxCPUTime="1 HOUR" ConvDefaults="Y" AbsConvValue="-1.34078E154" AbsFValue="0" AbsFTime="1" AbsGValue="0.00001" AbsGTime="1" AbsXValue="1E-8" AbsXTime="1" FConvValue="0" FConvTimes="1" GConvValue="1E-6" GConvTimes="1" ClParm="N" Covout="N" CovB="N" CorB="N" Simple="N" SuppressOutput="N" Details="N" PrintDesignMatrix="N" SASSPDS="N" Performance="N" ExcludedVariable="REJECT" ForceRun="N" RunAction="Train" Component="Regression" Interactions="">
+<VariableProperties/>
+<EmTargetAttributes>
+<damt>
+<DecData Table="EMWS2.Reg2_damt_DD">
+<Data>
+<Obs DAMT="0"/>
+<Obs DAMT="26"/>
+<Obs DAMT="7.3823038397"/>
+</Data>
+<Metadata>
+<Variable NAME="damt" LABEL="damt" LENGTH="8" FORMAT="" TYPE="N"/>
+</Metadata>
+</DecData>
+<DecMeta Table="EMWS2.Reg2_damt_DM">
+<Data>
+<Obs _TYPE_="MATRIX" VARIABLE="" LABEL="" FORMAT="" LEVEL="PROFIT" TYPE="" COST="" USE="N" MIN="." MEAN="." MAX="."/>
+<Obs _TYPE_="TARGET" VARIABLE="damt" LABEL="damt" FORMAT="BEST." LEVEL="INTERVAL" TYPE="N" COST="" USE="" MIN="0" MEAN="7.3823038397" MAX="26"/>
+<Obs _TYPE_="PREDICTED" VARIABLE="P_damt" LABEL="Predicted: damt" FORMAT="" LEVEL="" TYPE="N" COST="" USE="" MIN="." MEAN="." MAX="."/>
+<Obs _TYPE_="RESIDUAL" VARIABLE="R_damt" LABEL="Residual: damt" FORMAT="" LEVEL="" TYPE="N" COST="" USE="" MIN="." MEAN="." MAX="."/>
+</Data>
+<Metadata>
+<Variable NAME="_TYPE_" LABEL="Type" LENGTH="32" FORMAT="" TYPE="C"/>
+<Variable NAME="VARIABLE" LABEL="Variable" LENGTH="32" FORMAT="" TYPE="C"/>
+<Variable NAME="LABEL" LABEL="Label" LENGTH="256" FORMAT="" TYPE="C"/>
+<Variable NAME="FORMAT" LABEL="Format" LENGTH="32" FORMAT="" TYPE="C"/>
+<Variable NAME="LEVEL" LABEL="Measurement Level" LENGTH="32" FORMAT="" TYPE="C"/>
+<Variable NAME="TYPE" LABEL="Type" LENGTH="1" FORMAT="" TYPE="C"/>
+<Variable NAME="COST" LABEL="Cost" LENGTH="32" FORMAT="" TYPE="C"/>
+<Variable NAME="USE" LABEL="Use" LENGTH="1" FORMAT="" TYPE="C"/>
+<Variable NAME="MIN" LABEL="Minimum" LENGTH="8" FORMAT="" TYPE="N"/>
+<Variable NAME="MEAN" LABEL="Mean" LENGTH="8" FORMAT="" TYPE="N"/>
+<Variable NAME="MAX" LABEL="Maximum" LENGTH="8" FORMAT="" TYPE="N"/>
+</Metadata>
+</DecMeta>
+</damt>
+</EmTargetAttributes>
+<EmVariableAttributes>
+<DELTA Variable="donr" AttributeName="USE" AttributeValue="Y"/>
+</EmVariableAttributes>
+<EmFileProperties>
+<EMNOTES Type="EXTERNAL" Extension="txt">
+<Data/>
+</EMNOTES>
+</EmFileProperties>
+</PROPERTIES>
+</NODE>
+<NODE CLASS="SASHELP.EMUTIL.EMSCORE.CLASS" COMPONENT="Score" ID="Score" X="1592" Y="430" DESCRIPTION="Score" DIAGRAMID="_ROOT_" PARENTID="" TOOLTYPE="ASSESS" TOOLPREFIX="Score">
+<PROPERTIES OutputType="VIEW" FixedOutputNames="Y" HideVariables="N" HideInput="Y" HideTarget="Y" HideRejected="Y" HideAssess="Y" HidePredict="Y" HideFreq="Y" HideClassification="Y" HideResidual="Y" HideOther="Y" ScoreValidate="N" ScoreTest="N" CScore="N" JScore="N" PackageName="DEFAULT" UserPackageName="" PreferenceName="" OptimizedCode="Y" GraphReports="Y" ForceRun="N" RunAction="Train" Component="Score">
+<VariableProperties/>
+<EmVariableAttributes/>
+<EmTargetAttributes/>
+<EmFileProperties>
+<EMNOTES Type="EXTERNAL" Extension="txt">
+<Data/>
+</EMNOTES>
+</EmFileProperties>
+</PROPERTIES>
+</NODE>
+<NODE CLASS="SASHELP.EMUTIL.EMSCORE.CLASS" COMPONENT="Score" ID="Score2" X="1584" Y="642" DESCRIPTION="Score - Donate Amount" DIAGRAMID="_ROOT_" PARENTID="" TOOLTYPE="ASSESS" TOOLPREFIX="Score">
+<PROPERTIES OutputType="VIEW" FixedOutputNames="Y" HideVariables="N" HideInput="Y" HideTarget="Y" HideRejected="Y" HideAssess="Y" HidePredict="Y" HideFreq="Y" HideClassification="Y" HideResidual="Y" HideOther="Y" ScoreValidate="N" ScoreTest="N" CScore="N" JScore="N" PackageName="DEFAULT" UserPackageName="" PreferenceName="" OptimizedCode="Y" GraphReports="Y" ForceRun="N" RunAction="Train" Component="Score">
+<VariableProperties/>
+<EmTargetAttributes/>
+<EmVariableAttributes/>
+<EmFileProperties>
+<EMNOTES Type="EXTERNAL" Extension="txt">
+<Data/>
+</EMNOTES>
+</EmFileProperties>
+</PROPERTIES>
+</NODE>
+<NODE CLASS="SASHELP.EMEXPL.STATEXPLORE.CLASS" COMPONENT="StatExplore" ID="Stat" X="381" Y="387" DESCRIPTION="StatExplore" DIAGRAMID="_ROOT_" PARENTID="" TOOLTYPE="EXPLORE" TOOLPREFIX="Stat">
+<PROPERTIES BySegment="N" Correlation="Y" Spearman="N" Pearson="Y" ChiSquare="Y" ChiSquareInterval="N" ChiSquareIntervalNBins="5" MaximumVars="1000" HideVariable="Y" DropRejected="Y" UseValidate="N" UseTest="N" UseScore="N" NObs="100000" IntervalDistribution="Y" ClassDistribution="Y" LevelSummary="Y" ForceRun="N" RunAction="Train" Component="StatExplore">
+<VariableProperties/>
+<EmVariableAttributes/>
+<EmTargetAttributes/>
+<EmFileProperties>
+<CROSSTAB Type="DATA">
+<Data/>
+<Metadata/>
+</CROSSTAB>
+<EMNOTES Type="EXTERNAL" Extension="txt">
+<Data/>
+</EMNOTES>
+</EmFileProperties>
+</PROPERTIES>
+</NODE>
+<NODE CLASS="SASHELP.EMMDFY.EMTRANS.CLASS" COMPONENT="Transform" ID="Trans" X="708" Y="386" DESCRIPTION="Transform Variables" DIAGRAMID="_ROOT_" PARENTID="" TOOLTYPE="MODIFY" TOOLPREFIX="Trans">
+<PROPERTIES DefaultMethod="NONE" DefaultTargetMethod="NONE" DefaultClassMethod="NONE" DefaultClassTargetMethod="NONE" Offset="1" MinOffset="Y" HideVariable="Y" RejectVariable="Y" GroupCutoff="0.1" GroupMissing="N" EmRandomSeed="12345" EmSampleSize="MAX" EmSampleMethod="RANDOM" MissingValue="USEINSEARCH" SummaryVariables="TRANSFORMED" SummaryStatistics="Y" UseMetaTransform="Y" MissingAsLevel="N" NumberofBins="VARIABLES" MaxOptimalBins="4" ForceRun="N" RunAction="Train" Component="Transform">
+<VariableProperties/>
+<EmTargetAttributes/>
+<EmVariableAttributes>
+<DELTA Variable="gifa" AttributeName="METHOD" AttributeValue="RANGE"/>
+<DELTA Variable="gifdol" AttributeName="METHOD" AttributeValue="RANGE"/>
+<DELTA Variable="gifl" AttributeName="METHOD" AttributeValue="RANGE"/>
+<DELTA Variable="gifr" AttributeName="METHOD" AttributeValue="RANGE"/>
+<DELTA Variable="hv" AttributeName="METHOD" AttributeValue="RANGE"/>
+<DELTA Variable="incavg" AttributeName="METHOD" AttributeValue="RANGE"/>
+<DELTA Variable="incmed" AttributeName="METHOD" AttributeValue="RANGE"/>
+<DELTA Variable="kids" AttributeName="METHOD" AttributeValue="RANGE"/>
+<DELTA Variable="lag" AttributeName="METHOD" AttributeValue="RANGE"/>
+<DELTA Variable="low" AttributeName="METHOD" AttributeValue="RANGE"/>
+<DELTA Variable="mdon" AttributeName="METHOD" AttributeValue="RANGE"/>
+<DELTA Variable="npro" AttributeName="METHOD" AttributeValue="RANGE"/>
+<DELTA Variable="wlth" AttributeName="METHOD" AttributeValue="RANGE"/>
+</EmVariableAttributes>
+<EmFileProperties>
+<INTERACTION Type="DATA">
+<Data/>
+<Metadata/>
+</INTERACTION>
+<FORMULA Type="DATA">
+<Data/>
+<Metadata/>
+</FORMULA>
+<EMNOTES Type="EXTERNAL" Extension="txt">
+<Data/>
+</EMNOTES>
+</EmFileProperties>
+</PROPERTIES>
+</NODE>
+<NODE CLASS="SASHELP.EMMDFY.EMTRANS.CLASS" COMPONENT="Transform" ID="Trans2" X="703" Y="942" DESCRIPTION="Transform Variables" DIAGRAMID="_ROOT_" PARENTID="" TOOLTYPE="MODIFY" TOOLPREFIX="Trans">
+<PROPERTIES DefaultMethod="NONE" DefaultTargetMethod="NONE" DefaultClassMethod="NONE" DefaultClassTargetMethod="NONE" Offset="1" MinOffset="Y" HideVariable="Y" RejectVariable="Y" GroupCutoff="0.1" GroupMissing="N" EmRandomSeed="12345" EmSampleSize="MAX" EmSampleMethod="RANDOM" MissingValue="USEINSEARCH" SummaryVariables="TRANSFORMED" SummaryStatistics="Y" UseMetaTransform="Y" MissingAsLevel="N" NumberofBins="VARIABLES" MaxOptimalBins="4" ForceRun="N" RunAction="Train" Component="Transform">
+<VariableProperties/>
+<EmTargetAttributes/>
+<EmVariableAttributes>
+<DELTA Variable="gifa" AttributeName="METHOD" AttributeValue="RANGE"/>
+<DELTA Variable="gifdol" AttributeName="METHOD" AttributeValue="RANGE"/>
+<DELTA Variable="gifl" AttributeName="METHOD" AttributeValue="RANGE"/>
+<DELTA Variable="gifr" AttributeName="METHOD" AttributeValue="RANGE"/>
+<DELTA Variable="hv" AttributeName="METHOD" AttributeValue="RANGE"/>
+<DELTA Variable="incavg" AttributeName="METHOD" AttributeValue="RANGE"/>
+<DELTA Variable="incmed" AttributeName="METHOD" AttributeValue="RANGE"/>
+<DELTA Variable="kids" AttributeName="METHOD" AttributeValue="RANGE"/>
+<DELTA Variable="lag" AttributeName="METHOD" AttributeValue="RANGE"/>
+<DELTA Variable="low" AttributeName="METHOD" AttributeValue="RANGE"/>
+<DELTA Variable="mdon" AttributeName="METHOD" AttributeValue="RANGE"/>
+<DELTA Variable="npro" AttributeName="METHOD" AttributeValue="RANGE"/>
+<DELTA Variable="wlth" AttributeName="METHOD" AttributeValue="RANGE"/>
+</EmVariableAttributes>
+<EmFileProperties>
+<INTERACTION Type="DATA">
+<Data/>
+<Metadata/>
+</INTERACTION>
+<FORMULA Type="DATA">
+<Data/>
+<Metadata/>
+</FORMULA>
+<EMNOTES Type="EXTERNAL" Extension="txt">
+<Data/>
+</EMNOTES>
+</EmFileProperties>
+</PROPERTIES>
+</NODE>
+<NODE CLASS="SASHELP.EMCORE.EXTENSION.CLASS" COMPONENT="DecisionTree" ID="Tree" X="882" Y="237" DESCRIPTION="6 Branch 20 Deep" DIAGRAMID="_ROOT_" PARENTID="" TOOLTYPE="MODEL" TOOLPREFIX="Tree">
+<PROPERTIES Location="CATALOG" Catalog="SASHELP.EMMODL.TREE.SOURCE" ToolType="MODEL" TrainMode="BATCH" ImportModel="N" Freeze="N" UseMultipleTarget="N" Precision="4" IntervalCriterion="PROBF" NominalCriterion="PROBCHISQ" OrdinalCriterion="ENTROPY" SigLevel="0.2" Splitsize="." LeafSize="5" MinCatSize="5" Maxbranch="6" Maxdepth="20" Nrules="5" Nsurrs="0" MissingValue="USEINSEARCH" UseVarOnce="N" SplitPrecision="4" Subtree="ASSESSMENT" NSubtree="1" AssessMeasure="PROFIT/LOSS" AssessPercentage="0.25" NodeSample="20000" Exhaustive="5000" Kass="Y" KassApply="BEFORE" Depth="Y" Inputs="N" NumInputs="1" VarSelection="Y" Leafid="Y" NodeRole="SEGMENT" Performance="DISK" CV="N" CVNIter="10" CVRepeat="1" CVSeed="12345" ObsImportance="N" NumSingleImp="5" UseDecision="N" UsePriors="N" ClassColorBy="PERCENTCORRECT" IntColorBy="AVG" ShowNodeId="Y" ShowValid="Y" Pred="N" Target="ALL" Count="Y" ProfitLoss="NONE" PercentCorrect="N" AVG="Y" RASE="N" CreateSample="DEFAULT" SampleMethod="RANDOM" SampleSize="10000" SampleSeed="12345" ForceRun="N" RunAction="Train" Component="DecisionTree" Criterion="DEFAULT" Dummy="N" Predict="Y" ImportedTreeData="">
+<VariableProperties/>
+<EmTargetAttributes>
+<damt>
+<DecData Table="EMWS2.Tree_damt_DD">
+<Data>
+<Obs DAMT="0"/>
+<Obs DAMT="27"/>
+<Obs DAMT="7.1801951916"/>
+</Data>
+<Metadata>
+<Variable NAME="damt" LABEL="damt" LENGTH="8" FORMAT="" TYPE="N"/>
+</Metadata>
+</DecData>
+<DecMeta Table="EMWS2.Tree_damt_DM">
+<Data>
+<Obs _TYPE_="MATRIX" VARIABLE="" LABEL="" FORMAT="" LEVEL="PROFIT" TYPE="" COST="" USE="N" MIN="." MEAN="." MAX="."/>
+<Obs _TYPE_="TARGET" VARIABLE="damt" LABEL="damt" FORMAT="BEST." LEVEL="INTERVAL" TYPE="N" COST="" USE="" MIN="0" MEAN="7.1801951916" MAX="27"/>
+<Obs _TYPE_="PREDICTED" VARIABLE="P_damt" LABEL="Predicted: damt" FORMAT="" LEVEL="" TYPE="N" COST="" USE="" MIN="." MEAN="." MAX="."/>
+<Obs _TYPE_="RESIDUAL" VARIABLE="R_damt" LABEL="Residual: damt" FORMAT="" LEVEL="" TYPE="N" COST="" USE="" MIN="." MEAN="." MAX="."/>
+</Data>
+<Metadata>
+<Variable NAME="_TYPE_" LABEL="Type" LENGTH="32" FORMAT="" TYPE="C"/>
+<Variable NAME="VARIABLE" LABEL="Variable" LENGTH="32" FORMAT="" TYPE="C"/>
+<Variable NAME="LABEL" LABEL="Label" LENGTH="256" FORMAT="" TYPE="C"/>
+<Variable NAME="FORMAT" LABEL="Format" LENGTH="32" FORMAT="" TYPE="C"/>
+<Variable NAME="LEVEL" LABEL="Measurement Level" LENGTH="32" FORMAT="" TYPE="C"/>
+<Variable NAME="TYPE" LABEL="Type" LENGTH="1" FORMAT="" TYPE="C"/>
+<Variable NAME="COST" LABEL="Cost" LENGTH="32" FORMAT="" TYPE="C"/>
+<Variable NAME="USE" LABEL="Use" LENGTH="1" FORMAT="" TYPE="C"/>
+<Variable NAME="MIN" LABEL="Minimum" LENGTH="8" FORMAT="" TYPE="N"/>
+<Variable NAME="MEAN" LABEL="Mean" LENGTH="8" FORMAT="" TYPE="N"/>
+<Variable NAME="MAX" LABEL="Maximum" LENGTH="8" FORMAT="" TYPE="N"/>
+</Metadata>
+</DecMeta>
+</damt>
+</EmTargetAttributes>
+<EmVariableAttributes>
+<DELTA Variable="donr" AttributeName="USE" AttributeValue="Y"/>
+</EmVariableAttributes>
+<EmFileProperties>
+<USERTRAINCODE Type="EXTERNAL" Extension="sas">
+<Data/>
+</USERTRAINCODE>
+<EMNOTES Type="EXTERNAL" Extension="txt">
+<Data/>
+</EMNOTES>
+</EmFileProperties>
+</PROPERTIES>
+</NODE>
+<NODE CLASS="SASHELP.EMCORE.EXTENSION.CLASS" COMPONENT="DecisionTree" ID="Tree2" X="881" Y="282" DESCRIPTION="2 Branch 6 Deep" DIAGRAMID="_ROOT_" PARENTID="" TOOLTYPE="MODEL" TOOLPREFIX="Tree">
+<PROPERTIES Location="CATALOG" Catalog="SASHELP.EMMODL.TREE.SOURCE" ToolType="MODEL" TrainMode="BATCH" ImportModel="N" Freeze="N" UseMultipleTarget="N" Precision="4" IntervalCriterion="PROBF" NominalCriterion="PROBCHISQ" OrdinalCriterion="ENTROPY" SigLevel="0.2" Splitsize="." LeafSize="5" MinCatSize="5" Maxbranch="2" Maxdepth="6" Nrules="5" Nsurrs="0" MissingValue="USEINSEARCH" UseVarOnce="N" SplitPrecision="4" Subtree="ASSESSMENT" NSubtree="1" AssessMeasure="PROFIT/LOSS" AssessPercentage="0.25" NodeSample="20000" Exhaustive="5000" Kass="Y" KassApply="BEFORE" Depth="Y" Inputs="N" NumInputs="1" VarSelection="Y" Leafid="Y" NodeRole="SEGMENT" Performance="DISK" CV="N" CVNIter="10" CVRepeat="1" CVSeed="12345" ObsImportance="N" NumSingleImp="5" UseDecision="N" UsePriors="N" ClassColorBy="PERCENTCORRECT" IntColorBy="AVG" ShowNodeId="Y" ShowValid="Y" Pred="N" Target="ALL" Count="Y" ProfitLoss="NONE" PercentCorrect="N" AVG="Y" RASE="N" CreateSample="DEFAULT" SampleMethod="RANDOM" SampleSize="10000" SampleSeed="12345" ForceRun="N" RunAction="Train" Component="DecisionTree" Criterion="DEFAULT" Dummy="N" Predict="Y" ImportedTreeData="">
+<VariableProperties/>
+<EmTargetAttributes>
+<damt>
+<DecData Table="EMWS2.Tree2_damt_DD">
+<Data>
+<Obs DAMT="0"/>
+<Obs DAMT="27"/>
+<Obs DAMT="7.1801951916"/>
+</Data>
+<Metadata>
+<Variable NAME="damt" LABEL="damt" LENGTH="8" FORMAT="" TYPE="N"/>
+</Metadata>
+</DecData>
+<DecMeta Table="EMWS2.Tree2_damt_DM">
+<Data>
+<Obs _TYPE_="MATRIX" VARIABLE="" LABEL="" FORMAT="" LEVEL="PROFIT" TYPE="" COST="" USE="N" MIN="." MEAN="." MAX="."/>
+<Obs _TYPE_="TARGET" VARIABLE="damt" LABEL="damt" FORMAT="BEST." LEVEL="INTERVAL" TYPE="N" COST="" USE="" MIN="0" MEAN="7.1801951916" MAX="27"/>
+<Obs _TYPE_="PREDICTED" VARIABLE="P_damt" LABEL="Predicted: damt" FORMAT="" LEVEL="" TYPE="N" COST="" USE="" MIN="." MEAN="." MAX="."/>
+<Obs _TYPE_="RESIDUAL" VARIABLE="R_damt" LABEL="Residual: damt" FORMAT="" LEVEL="" TYPE="N" COST="" USE="" MIN="." MEAN="." MAX="."/>
+</Data>
+<Metadata>
+<Variable NAME="_TYPE_" LABEL="Type" LENGTH="32" FORMAT="" TYPE="C"/>
+<Variable NAME="VARIABLE" LABEL="Variable" LENGTH="32" FORMAT="" TYPE="C"/>
+<Variable NAME="LABEL" LABEL="Label" LENGTH="256" FORMAT="" TYPE="C"/>
+<Variable NAME="FORMAT" LABEL="Format" LENGTH="32" FORMAT="" TYPE="C"/>
+<Variable NAME="LEVEL" LABEL="Measurement Level" LENGTH="32" FORMAT="" TYPE="C"/>
+<Variable NAME="TYPE" LABEL="Type" LENGTH="1" FORMAT="" TYPE="C"/>
+<Variable NAME="COST" LABEL="Cost" LENGTH="32" FORMAT="" TYPE="C"/>
+<Variable NAME="USE" LABEL="Use" LENGTH="1" FORMAT="" TYPE="C"/>
+<Variable NAME="MIN" LABEL="Minimum" LENGTH="8" FORMAT="" TYPE="N"/>
+<Variable NAME="MEAN" LABEL="Mean" LENGTH="8" FORMAT="" TYPE="N"/>
+<Variable NAME="MAX" LABEL="Maximum" LENGTH="8" FORMAT="" TYPE="N"/>
+</Metadata>
+</DecMeta>
+</damt>
+</EmTargetAttributes>
+<EmVariableAttributes>
+<DELTA Variable="donr" AttributeName="USE" AttributeValue="Y"/>
+</EmVariableAttributes>
+<EmFileProperties>
+<USERTRAINCODE Type="EXTERNAL" Extension="sas">
+<Data/>
+</USERTRAINCODE>
+<EMNOTES Type="EXTERNAL" Extension="txt">
+<Data/>
+</EMNOTES>
+</EmFileProperties>
+</PROPERTIES>
+</NODE>
+<NODE CLASS="SASHELP.EMCORE.EXTENSION.CLASS" COMPONENT="DecisionTree" ID="Tree3" X="877" Y="793" DESCRIPTION="6 Branch 20 Deep" DIAGRAMID="_ROOT_" PARENTID="" TOOLTYPE="MODEL" TOOLPREFIX="Tree">
+<PROPERTIES Location="CATALOG" Catalog="SASHELP.EMMODL.TREE.SOURCE" ToolType="MODEL" TrainMode="BATCH" ImportModel="N" Freeze="N" UseMultipleTarget="N" Precision="4" IntervalCriterion="PROBF" NominalCriterion="PROBCHISQ" OrdinalCriterion="ENTROPY" SigLevel="0.2" Splitsize="." LeafSize="5" MinCatSize="5" Maxbranch="6" Maxdepth="20" Nrules="5" Nsurrs="0" MissingValue="USEINSEARCH" UseVarOnce="N" SplitPrecision="4" Subtree="ASSESSMENT" NSubtree="1" AssessMeasure="PROFIT/LOSS" AssessPercentage="0.25" NodeSample="20000" Exhaustive="5000" Kass="Y" KassApply="BEFORE" Depth="Y" Inputs="N" NumInputs="1" VarSelection="Y" Leafid="Y" NodeRole="SEGMENT" Performance="DISK" CV="N" CVNIter="10" CVRepeat="1" CVSeed="12345" ObsImportance="N" NumSingleImp="5" UseDecision="N" UsePriors="N" ClassColorBy="PERCENTCORRECT" IntColorBy="AVG" ShowNodeId="Y" ShowValid="Y" Pred="N" Target="ALL" Count="Y" ProfitLoss="NONE" PercentCorrect="N" AVG="Y" RASE="N" CreateSample="DEFAULT" SampleMethod="RANDOM" SampleSize="10000" SampleSeed="12345" ForceRun="N" RunAction="Train" Component="DecisionTree" Criterion="DEFAULT" Dummy="N" Predict="Y" ImportedTreeData="">
+<VariableProperties/>
+<EmTargetAttributes>
+<damt>
+<DecData Table="EMWS2.Tree3_damt_DD">
+<Data>
+<Obs DAMT="0"/>
+<Obs DAMT="26"/>
+<Obs DAMT="7.3823038397"/>
+</Data>
+<Metadata>
+<Variable NAME="damt" LABEL="damt" LENGTH="8" FORMAT="" TYPE="N"/>
+</Metadata>
+</DecData>
+<DecMeta Table="EMWS2.Tree3_damt_DM">
+<Data>
+<Obs _TYPE_="MATRIX" VARIABLE="" LABEL="" FORMAT="" LEVEL="PROFIT" TYPE="" COST="" USE="N" MIN="." MEAN="." MAX="."/>
+<Obs _TYPE_="TARGET" VARIABLE="damt" LABEL="damt" FORMAT="BEST." LEVEL="INTERVAL" TYPE="N" COST="" USE="" MIN="0" MEAN="7.3823038397" MAX="26"/>
+<Obs _TYPE_="PREDICTED" VARIABLE="P_damt" LABEL="Predicted: damt" FORMAT="" LEVEL="" TYPE="N" COST="" USE="" MIN="." MEAN="." MAX="."/>
+<Obs _TYPE_="RESIDUAL" VARIABLE="R_damt" LABEL="Residual: damt" FORMAT="" LEVEL="" TYPE="N" COST="" USE="" MIN="." MEAN="." MAX="."/>
+</Data>
+<Metadata>
+<Variable NAME="_TYPE_" LABEL="Type" LENGTH="32" FORMAT="" TYPE="C"/>
+<Variable NAME="VARIABLE" LABEL="Variable" LENGTH="32" FORMAT="" TYPE="C"/>
+<Variable NAME="LABEL" LABEL="Label" LENGTH="256" FORMAT="" TYPE="C"/>
+<Variable NAME="FORMAT" LABEL="Format" LENGTH="32" FORMAT="" TYPE="C"/>
+<Variable NAME="LEVEL" LABEL="Measurement Level" LENGTH="32" FORMAT="" TYPE="C"/>
+<Variable NAME="TYPE" LABEL="Type" LENGTH="1" FORMAT="" TYPE="C"/>
+<Variable NAME="COST" LABEL="Cost" LENGTH="32" FORMAT="" TYPE="C"/>
+<Variable NAME="USE" LABEL="Use" LENGTH="1" FORMAT="" TYPE="C"/>
+<Variable NAME="MIN" LABEL="Minimum" LENGTH="8" FORMAT="" TYPE="N"/>
+<Variable NAME="MEAN" LABEL="Mean" LENGTH="8" FORMAT="" TYPE="N"/>
+<Variable NAME="MAX" LABEL="Maximum" LENGTH="8" FORMAT="" TYPE="N"/>
+</Metadata>
+</DecMeta>
+</damt>
+</EmTargetAttributes>
+<EmVariableAttributes>
+<DELTA Variable="donr" AttributeName="USE" AttributeValue="Y"/>
+</EmVariableAttributes>
+<EmFileProperties>
+<USERTRAINCODE Type="EXTERNAL" Extension="sas">
+<Data/>
+</USERTRAINCODE>
+<EMNOTES Type="EXTERNAL" Extension="txt">
+<Data/>
+</EMNOTES>
+</EmFileProperties>
+</PROPERTIES>
+</NODE>
+<NODE CLASS="SASHELP.EMCORE.EXTENSION.CLASS" COMPONENT="DecisionTree" ID="Tree4" X="876" Y="838" DESCRIPTION="2 Branch 6 Deep" DIAGRAMID="_ROOT_" PARENTID="" TOOLTYPE="MODEL" TOOLPREFIX="Tree">
+<PROPERTIES Location="CATALOG" Catalog="SASHELP.EMMODL.TREE.SOURCE" ToolType="MODEL" TrainMode="BATCH" ImportModel="N" Freeze="N" UseMultipleTarget="N" Precision="4" IntervalCriterion="PROBF" NominalCriterion="PROBCHISQ" OrdinalCriterion="ENTROPY" SigLevel="0.2" Splitsize="." LeafSize="5" MinCatSize="5" Maxbranch="2" Maxdepth="6" Nrules="5" Nsurrs="0" MissingValue="USEINSEARCH" UseVarOnce="N" SplitPrecision="4" Subtree="ASSESSMENT" NSubtree="1" AssessMeasure="PROFIT/LOSS" AssessPercentage="0.25" NodeSample="20000" Exhaustive="5000" Kass="Y" KassApply="BEFORE" Depth="Y" Inputs="N" NumInputs="1" VarSelection="Y" Leafid="Y" NodeRole="SEGMENT" Performance="DISK" CV="N" CVNIter="10" CVRepeat="1" CVSeed="12345" ObsImportance="N" NumSingleImp="5" UseDecision="N" UsePriors="N" ClassColorBy="PERCENTCORRECT" IntColorBy="AVG" ShowNodeId="Y" ShowValid="Y" Pred="N" Target="ALL" Count="Y" ProfitLoss="NONE" PercentCorrect="N" AVG="Y" RASE="N" CreateSample="DEFAULT" SampleMethod="RANDOM" SampleSize="10000" SampleSeed="12345" ForceRun="N" RunAction="Train" Component="DecisionTree" Criterion="DEFAULT" Dummy="N" Predict="Y" ImportedTreeData="">
+<VariableProperties/>
+<EmTargetAttributes>
+<damt>
+<DecData Table="EMWS2.Tree4_damt_DD">
+<Data>
+<Obs DAMT="0"/>
+<Obs DAMT="26"/>
+<Obs DAMT="7.3823038397"/>
+</Data>
+<Metadata>
+<Variable NAME="damt" LABEL="damt" LENGTH="8" FORMAT="" TYPE="N"/>
+</Metadata>
+</DecData>
+<DecMeta Table="EMWS2.Tree4_damt_DM">
+<Data>
+<Obs _TYPE_="MATRIX" VARIABLE="" LABEL="" FORMAT="" LEVEL="PROFIT" TYPE="" COST="" USE="N" MIN="." MEAN="." MAX="."/>
+<Obs _TYPE_="TARGET" VARIABLE="damt" LABEL="damt" FORMAT="BEST." LEVEL="INTERVAL" TYPE="N" COST="" USE="" MIN="0" MEAN="7.3823038397" MAX="26"/>
+<Obs _TYPE_="PREDICTED" VARIABLE="P_damt" LABEL="Predicted: damt" FORMAT="" LEVEL="" TYPE="N" COST="" USE="" MIN="." MEAN="." MAX="."/>
+<Obs _TYPE_="RESIDUAL" VARIABLE="R_damt" LABEL="Residual: damt" FORMAT="" LEVEL="" TYPE="N" COST="" USE="" MIN="." MEAN="." MAX="."/>
+</Data>
+<Metadata>
+<Variable NAME="_TYPE_" LABEL="Type" LENGTH="32" FORMAT="" TYPE="C"/>
+<Variable NAME="VARIABLE" LABEL="Variable" LENGTH="32" FORMAT="" TYPE="C"/>
+<Variable NAME="LABEL" LABEL="Label" LENGTH="256" FORMAT="" TYPE="C"/>
+<Variable NAME="FORMAT" LABEL="Format" LENGTH="32" FORMAT="" TYPE="C"/>
+<Variable NAME="LEVEL" LABEL="Measurement Level" LENGTH="32" FORMAT="" TYPE="C"/>
+<Variable NAME="TYPE" LABEL="Type" LENGTH="1" FORMAT="" TYPE="C"/>
+<Variable NAME="COST" LABEL="Cost" LENGTH="32" FORMAT="" TYPE="C"/>
+<Variable NAME="USE" LABEL="Use" LENGTH="1" FORMAT="" TYPE="C"/>
+<Variable NAME="MIN" LABEL="Minimum" LENGTH="8" FORMAT="" TYPE="N"/>
+<Variable NAME="MEAN" LABEL="Mean" LENGTH="8" FORMAT="" TYPE="N"/>
+<Variable NAME="MAX" LABEL="Maximum" LENGTH="8" FORMAT="" TYPE="N"/>
+</Metadata>
+</DecMeta>
+</damt>
+</EmTargetAttributes>
+<EmVariableAttributes>
+<DELTA Variable="donr" AttributeName="USE" AttributeValue="Y"/>
+</EmVariableAttributes>
+<EmFileProperties>
+<USERTRAINCODE Type="EXTERNAL" Extension="sas">
+<Data/>
+</USERTRAINCODE>
+<EMNOTES Type="EXTERNAL" Extension="txt">
+<Data/>
+</EMNOTES>
+</EmFileProperties>
+</PROPERTIES>
+</NODE>
+<NODE CLASS="SASHELP.EMCORE.EXTENSION.CLASS" COMPONENT="VariableClustering" ID="VarClus" X="456" Y="243" DESCRIPTION="Variable Clustering" DIAGRAMID="_ROOT_" PARENTID="" TOOLTYPE="EXPLORE" TOOLPREFIX="VarClus">
+<PROPERTIES Location="CATALOG" Catalog="SASHELP.EMEXPL.VARIABLECLUSTERING.SOURCE" HideVariable="Y" MaxClus="." ClusSource="CORR" ClusHierachy="Y" IncludeClassVar="N" TwoStageClus="AUTO" SuppressSampWarn="N" ExportedComp="CLUSTERCOMP" MaxEigen="." Proportion="0" PrintOption="SHORT" ForceRun="N" RunAction="Train" Component="VariableClustering" DataNeeded="Y">
+<VariableProperties/>
+<EmVariableAttributes>
+<DELTA Variable="damt" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="donr" AttributeName="ROLE" AttributeValue="TARGET"/>
+</EmVariableAttributes>
+<EmTargetAttributes/>
+<EmFileProperties>
+<USERTRAINCODE Type="EXTERNAL" Extension="sas">
+<Data/>
+</USERTRAINCODE>
+<EMNOTES Type="EXTERNAL" Extension="txt">
+<Data/>
+</EMNOTES>
+</EmFileProperties>
+</PROPERTIES>
+</NODE>
+</NODES>
+<CONNECTIONS>
+<CONNECTION FROM="FIMPORT2" TO="Plot"/>
+<CONNECTION FROM="FIMPORT2" TO="GrfExpl"/>
+<CONNECTION FROM="FIMPORT2" TO="DMDB"/>
+<CONNECTION FROM="FIMPORT2" TO="Stat"/>
+<CONNECTION FROM="FIMPORT2" TO="VarClus"/>
+<CONNECTION FROM="Stat" TO="Part"/>
+<CONNECTION FROM="Part" TO="Reg"/>
+<CONNECTION FROM="Part" TO="Boost"/>
+<CONNECTION FROM="Part" TO="HPDMForest"/>
+<CONNECTION FROM="Part" TO="Tree"/>
+<CONNECTION FROM="Part" TO="Tree2"/>
+<CONNECTION FROM="Part" TO="AutoNeural"/>
+<CONNECTION FROM="Part" TO="Trans"/>
+<CONNECTION FROM="Trans" TO="Neural2"/>
+<CONNECTION FROM="Trans" TO="Neural"/>
+<CONNECTION FROM="AutoNeural" TO="MdlComp2"/>
+<CONNECTION FROM="Tree2" TO="CNTRL"/>
+<CONNECTION FROM="Tree" TO="CNTRL"/>
+<CONNECTION FROM="HPDMForest" TO="MdlComp"/>
+<CONNECTION FROM="Boost" TO="MdlComp"/>
+<CONNECTION FROM="Reg" TO="MdlComp3"/>
+<CONNECTION FROM="Neural" TO="CNTRL2"/>
+<CONNECTION FROM="Neural2" TO="CNTRL2"/>
+<CONNECTION FROM="CNTRL2" TO="MdlComp2"/>
+<CONNECTION FROM="CNTRL" TO="MdlComp"/>
+<CONNECTION FROM="MdlComp" TO="MdlComp3"/>
+<CONNECTION FROM="MdlComp2" TO="MdlComp3"/>
+<CONNECTION FROM="MdlComp3" TO="Score"/>
+<CONNECTION FROM="FIMPORT" TO="Score"/>
+<CONNECTION FROM="Score" TO="GrfExpl2"/>
+<CONNECTION FROM="FIMPORT2" TO="Filter"/>
+<CONNECTION FROM="Part2" TO="Reg2"/>
+<CONNECTION FROM="Part2" TO="Boost2"/>
+<CONNECTION FROM="Part2" TO="HPDMForest2"/>
+<CONNECTION FROM="Part2" TO="Tree3"/>
+<CONNECTION FROM="Part2" TO="Tree4"/>
+<CONNECTION FROM="Part2" TO="AutoNeural2"/>
+<CONNECTION FROM="Part2" TO="Trans2"/>
+<CONNECTION FROM="Trans2" TO="Neural4"/>
+<CONNECTION FROM="Trans2" TO="Neural3"/>
+<CONNECTION FROM="AutoNeural2" TO="MdlComp5"/>
+<CONNECTION FROM="Tree4" TO="CNTRL3"/>
+<CONNECTION FROM="Tree3" TO="CNTRL3"/>
+<CONNECTION FROM="HPDMForest2" TO="MdlComp4"/>
+<CONNECTION FROM="Boost2" TO="MdlComp4"/>
+<CONNECTION FROM="Reg2" TO="MdlComp6"/>
+<CONNECTION FROM="Neural3" TO="CNTRL4"/>
+<CONNECTION FROM="Neural4" TO="CNTRL4"/>
+<CONNECTION FROM="CNTRL4" TO="MdlComp5"/>
+<CONNECTION FROM="CNTRL3" TO="MdlComp4"/>
+<CONNECTION FROM="MdlComp4" TO="MdlComp6"/>
+<CONNECTION FROM="MdlComp5" TO="MdlComp6"/>
+<CONNECTION FROM="Filter" TO="Part2"/>
+<CONNECTION FROM="FIMPORT" TO="Score2"/>
+<CONNECTION FROM="MdlComp6" TO="Score2"/>
+<CONNECTION FROM="Score2" TO="GrfExpl3"/>
+</CONNECTIONS>
+<NOTES>
+<DATA><![CDATA[
+
+]]>
+</DATA>
+</NOTES>
+</Workspace>
+</_ROOT_>
