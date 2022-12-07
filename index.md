@@ -5,6 +5,7 @@
 ### Category Name 1 
 
 [Non-Profit Efficent Marketing Campaign via SAS Enterprise Miner](/pdf/sample_presentation.pdf)
+<br>
 SAS Classification Diagram:
 <img src="sas_classification.png?raw=true"/>
 SAS Prediction Diagram:
