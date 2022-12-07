@@ -1,6 +1,6 @@
 ## Non-Profit Marketing Project
 
-**Project description:** My team was recruited by a non-profit organization to maximize cost efficiency for a donation campaign using data from previous campaigns.
+**Project description:** My team was recruited by a non-profit organization to maximize cost efficiency for a donation campaign using data from previous campaigns. Our main goal was to create a model with high accuracy to classify a potential repeat donor. Another model will be used to predict the amount the donor will donate. Based on the software the non-profit has at their disposal, we determined SAS Enterprise Miner was the best software to collaborate and develop models so individuals at the organization can inherit the models for future use while our team can help provide future analytics and support.
 
 ### 1. Perform descriptive statistics and EDA on provided data.
 
@@ -216,4 +216,4 @@ The models were assessed on its overall accuracy (misclassification rate) while 
 
 The Neural Networks in both the classification and prediction models provided the best models for deployment. Using the models, an estimated 76% improvement in cost effectiveness is estimated. The estimated percent is based on the estimated donation amount from each predicted donor. Limitaions in the data consist of limited records to train and test the model while more variables could have been analyzed to fine tune a more accurate model. More detailed location data was withheld from the data team that could have been beneficial to regional analysis and donation prediction. Using the new data from the upcoming marketing campaign will detail how accurate the predicting power of the model is and can be used to fine tune the model for future usage.
 
-For more details see [Report via PDF](SAS/Nonprofit_marketing_report.pdf).
+For more details see [Report via PDF](/SAS/Nonprofit_marketing_report.pdf).
