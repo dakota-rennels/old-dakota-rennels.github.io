@@ -2,7 +2,7 @@
 
 ---
 
-### Category Name 1 
+### Completed Projects 
 
 [Non-Profit Efficent Marketing Campaign via SAS Enterprise Miner](/sample_presentation.pdf)
 <br>
@@ -21,7 +21,7 @@ SAS Prediction Diagram:
 
 ---
 
-### Category Name 2
+### Current Projects
 
 - [Project 1 Title](http://example.com/)
 - [Project 2 Title](http://example.com/)
