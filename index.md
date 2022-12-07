@@ -23,11 +23,11 @@
 
 ### Current Projects
 
-- [Project 1 Title](http://example.com/)
-- [Project 2 Title](http://example.com/)
-- [Project 3 Title](http://example.com/)
-- [Project 4 Title](http://example.com/)
-- [Project 5 Title](http://example.com/)
+- [Oklahoma Data Modernization](https://oklahoma.gov/omes/services/information-services/dataservices.html)
+- [Oklahoma State Data Platform](https://dash.ok.gov/#/login)
+- [Oklahoma Data Governance Initative](https://oklahoma.gov/omes/services/information-services/data-governance.html)
+- Oklahoma Customer 360 (Project details are currently not shown due to PII compliance)
+- Department of Public Safety Collisions Analysis (Currently all project details and visuals are classified)
 
 ---
 
