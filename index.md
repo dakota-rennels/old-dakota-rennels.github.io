@@ -4,8 +4,9 @@
 
 ### Category Name 1 
 
-[Non-Profit Efficent Marketing Campaign via SAS Enterprise Miner](/sample_page)
+[Non-Profit Efficent Marketing Campaign via SAS Enterprise Miner](/pdf/sample_presentation.pdf)
 <img src="sas_classification.png?raw=true"/>
+<img src="sas_prediction.png?raw=true"/>
 
 ---
 [Project 2 Title](/pdf/sample_presentation.pdf)
