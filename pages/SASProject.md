@@ -212,6 +212,7 @@ The models were assessed on its overall accuracy (misclassification rate) while 
 
 ### 3. Build and run prediction models.
 The models were assessed on its overall accuracy (misclassification rate) while observing sensitivity and average squared error of the models. damt was the variable used to identify the predicted amount a donor will donate. Four main types of models were tested: Polynomial Linear Regression, Tree-based Regressor, and Neural Network.
+<img src="/images/sas_prediction.png?raw=true"/>
 
 ### 4. Provide a summary of analysis and detail limitations.
 
