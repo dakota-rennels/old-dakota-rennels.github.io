@@ -4,7 +4,7 @@
 
 ### Category Name 1 
 
-[Project 1 Title](/sample_page)
+[Non-Profit Efficent Marketing Campaign via SAS Enterprise Miner](/sample_page)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
