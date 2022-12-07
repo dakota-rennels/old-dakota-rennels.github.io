@@ -208,7 +208,7 @@ Initial analysis on the dataset was performed to confirm the correct data types 
 
 ### 2. Build and run classification models.
 The models were assessed on its overall accuracy (misclassification rate) while observing sensitivity and specificity of the models. donr was the variable used to identify a donor. It is marked '1' if the individual donated and '0' if they did not donate. Four main types of models were tested: Naive Bayesian, Neural Network, Tree-based, and KNN. 
-<img src="images/sas_classification.png?raw=true"/>
+<img src="/images/sas_classification.png?raw=true"/>
 
 ### 3. Build and run prediction models.
 The models were assessed on its overall accuracy (misclassification rate) while observing sensitivity and average squared error of the models. damt was the variable used to identify the predicted amount a donor will donate. Four main types of models were tested: Polynomial Linear Regression, Tree-based Regressor, and Neural Network.
