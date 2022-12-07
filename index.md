@@ -4,7 +4,7 @@
 
 ### Completed Projects 
 
-[Non-Profit Efficent Marketing Campaign via SAS Enterprise Miner](/pages/SASProject.md)
+[Non-Profit Marketing Campaign Efficiency Project](/pages/SASProject.md)
 <br>
 <img src="images/sas_classification.png?raw=true"/>
 ---
