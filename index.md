@@ -7,6 +7,9 @@
 [Non-Profit Marketing Campaign Efficiency Project:](/pages/SASProject.md)
 <br>
 [<img src="images/nonprofit_campaign.png?raw=true"/>](/pages/SASProject.md)
+
+[Oklahoma State Data Platform Project:](/pages/OklahomaStateDataPlatformProject.md)
+<br>
 ---
 
 ### Current Projects
