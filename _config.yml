@@ -1,10 +1,6 @@
 title: Dakota Rennels # your name (or website title) here
 logo: "images/profile_pic.png" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
-  if (hOffset < top) {
-    if (nav.data(stickyClass) !== true) {
-        nav.addClass(stickyClass).data(stickyClass,true);
-    }
   4+ years of Data Science and Data Analytics 
   experience with extensive experience of utilizing 
   advanced data analytics, deploying risk management
