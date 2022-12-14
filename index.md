@@ -8,7 +8,7 @@
 
 ### Current Projects
 
-- [Oklahoma State Data Platform](/pages/OklahomaStateDataPlatformProject.md) <br> [<img src="images/hub_n_spoke.jpg?raw=true"/>](/pages/OklahomaStateDataPlatformProject.md)
+- [Oklahoma State Data Platform](/pages/OklahomaStateDataPlatformProject.md) <br> [<img src="images/SDP Button.gif?raw=true"/>](/pages/OklahomaStateDataPlatformProject.md)
 - [Oklahoma Data Modernization](https://oklahoma.gov/omes/services/information-services/dataservices.html)
 - [Oklahoma Data Governance Initative](https://oklahoma.gov/omes/services/information-services/data-governance.html)
 
