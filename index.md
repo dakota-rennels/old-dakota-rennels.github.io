@@ -5,7 +5,6 @@
 ### Completed Projects 
 
 - [Non-Profit Marketing Campaign Efficiency Project:](/pages/SASProject.md) <br> [<img src="images/nonprofit_campaign.png?raw=true"/>](/pages/SASProject.md)
----
 
 ### Current Projects
 
@@ -13,6 +12,6 @@
 - [Oklahoma Data Modernization](https://oklahoma.gov/omes/services/information-services/dataservices.html)
 - [Oklahoma Data Governance Initative](https://oklahoma.gov/omes/services/information-services/data-governance.html)
 
-
+---
 
 
