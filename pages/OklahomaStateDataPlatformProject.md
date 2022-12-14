@@ -1,221 +1,23 @@
 ## Oklahoma State Data Platform
 
-**Project description:** OMES Data-Driven Services has undertaken an initative to create a State Data Platform to provide transparency, security, and accountability of state data while supporting state agencies with various tools, software, infastructure, and services. The main goal of the platform is to connect state agencies who offer services to the public such as: food benefits, school programs, licensing programs, and mental healh; with a platform for seemless data sharing between state agencies. This hub-and-spoke model is will allow the State of Oklahoma to work together to improve the lives of Oklahomans by improving programs through more detailed analytics, while ensuring all information is protected and secure. For a bit more of an introduction into the initative, please watch the following video:
+**Project description:** Oklahoma Office of Management and Enterprise Services (OMES) Data-Driven Services team has undertaken an initiative to create a State Data Platform to provide transparency, security, and accountability of state data while supporting state agencies with various tools, software, infrastructure, and services. The main goal of the platform is to connect state agencies who offer services to the public such as: food benefits, school programs, licensing programs, and mental health; with a platform for seamless data sharing between state agencies. This hub-and-spoke model will allow the State of Oklahoma to work together to improve the lives of Oklahomans by improving programs through more detailed analytics, while ensuring all information is protected and secure. For a bit more of an introduction into the initiative, please watch the following video:
 [![OMES collaborates with state agencies to utilize data and drive service efficiencies for Oklahomans](/images/Youtube_Thumbnail_SDP.png)](https://youtu.be/ZNxmbjxT_Uo "OMES collaborates with state agencies to utilize data and drive service efficiencies for Oklahomans")
 
-### 1. Perform descriptive statistics and EDA on provided data.
+### 1. Perform Data Discovery and create a Data Strategy
+Initial work in the project is tailored mainly towards Data Discovery. One of the most important steps in a centralized-data world is to determine what data processes currently exist and if any resulting collected/processed data is siloed. This involves mapping data with how it is currently being collected, stored, and used in the various agencies. The next piece of this is determining what data the agency views as essential to their respective programs and KPIs. Determining the driving program data can help the OMES data team identify the first area of critical need and work with the agency to establish proper data governance while getting their data to a more storable and secure cloud environment for future analytics and data sharing. While working with the respective state agency, the goal is to assist in building a data strategy that drives the value of proper data governance within the agency while also aligning to the overall State of Oklahoma Data Strategy.
 
-Initial analysis on the dataset was performed to confirm the correct data types were assigned to variables, confirm no missing data in the dataset, and verify the correct target variable for classification and prediction, respectively.
+### 2. Build an agency spoke within Google Cloud Platform (GCP)
+Once we have connected with an agency for their data needs and initial planning, the next crucial step is working with Cloud Services, CyberCommand, and Provisioning teams to create a billing account for the agency to allow GCP project creation. Once the project has been created, the identified agency's Data Owner, Data Manager, and Data Stewards are assigned the necessary roles and permissions to begin utilizing their GCP environment. Part of the role of OMES Data-Driven Services is to provide the necessary training and support for the agency's team to properly use the tools within GCP.
 
-<html>
-<body>
+### 3. Assist with Data ETL Pipeline creation, Metadata tagging, and Database management.
+Once an agency has become familiar with their GCP environment, designing and deploying pipelines for the data becomes paramount. Most agencies currently lack centralized databases and piping data from various locations is common. Working with the Data Engineering team, we determine where the location of specific datasets reside and determine the best resource for moving data. One of the most common methods utilized is GCP's Data Cloud Fusion which allows code-free ETL deployment and end-to-end data lineage for risk analysis and future troubleshooting. This is often the preferred method as most state agencies will take over pipeline management and often do not have the Python or Bash skills to troubleshoot a pipeline issue.
+<br>
+Once the data has reached GCP, the next step is to have it 'pass' through Google's Dataplex for Metadata tagging. This allows for additional security for certain data deemed confidential. Dataplex allows for centralized security and policy governance even if an agency independently does not assign a sensitivity tag to a particular variable or field themselves. Dataplex also utilizes Google's built-in AI and Machine Learning capabilities to automate classification, data quality, and data discovery across the hub-and-spoke model. Dataplex is a key asset of the State Data Platform as it provides that extra layer of security that cannot be achieved in local agency-owned databases.
+<br> 
+Once the data has been properly tagged, it is placed into an agency's GCP BigQuery. BigQuery is GCP's serverless data warehouse with built-in machine learning and business insight capabilities. Once data has been loaded into an agency's BigQuery, an agency can manage, query, and transform data to use for analytics across the different datasets from various departments within the agency. 
 
-<h2>Descriptive Statistics</h2>
-
-<table style="width:100%">
-  <tr>
-    <th>Variable</th>	
-    <th>Missing</th>
-    <th>Count</th>
-    <th>Minimum</th>
-    <th>Maximum</th>
-    <th>Mean</th>
-    <th>Standard Deviation</th>
-    <th>Skewness</th>
-  </tr>
-  <tr>
-    <td>damt</td>
-    <td>0</td>
-    <td>6002</td>
-    <td>0</td>
-    <td>27</td>
-    <td>7.209</td>
-    <td>7.3612</td>
-    <td>0.11698</td>
-  </tr>
-   <tr>
-    <td>donr</td>
-    <td>0</td>
-    <td>6002</td>
-    <td>0</td>
-    <td>1</td>
-    <td>0.499</td>
-    <td>0.5</td>
-    <td>0.00467</td>
-  </tr>
-  <tr>
-    <td>gifa</td>
-    <td>0</td>
-    <td>6002</td>
-    <td>1.89</td>
-    <td>72.27</td>
-    <td>11.678</td>
-    <td>6.5281</td>
-    <td>1.74146</td>
-  </tr>
-  <tr>
-    <td>gifdol</td>
-    <td>0</td>
-    <td>6002</td>
-    <td>23</td>
-    <td>1974</td>
-    <td>115.8</td>
-    <td>86.538</td>
-    <td>6.09138</td>
-  </tr>
-  <tr>
-    <td>gifl</td>
-    <td>0</td>
-    <td>6002</td>
-    <td>3</td>
-    <td>642</td>
-    <td>22.981</td>
-    <td>29.3964</td>
-    <td>7.18035</td>
-  </tr>
-  <tr>
-    <td>gifr</td>
-    <td>0</td>
-    <td>6002</td>
-    <td>1</td>
-    <td>173</td>
-    <td>15.654</td>
-    <td>12.4246</td>
-    <td>2.67345</td>
-  </tr>
-  <tr>
-    <td>hv</td>
-    <td>0</td>
-    <td>6002</td>
-    <td>51</td>
-    <td>710</td>
-    <td>183.905</td>
-    <td>72.7705</td>
-    <td>1.4889</td>
-  </tr>
-  <tr>
-    <td>inc</td>
-    <td>0</td>
-    <td>6002</td>
-    <td>1</td>
-    <td>7</td>
-    <td>3.939</td>
-    <td>1.4019</td>
-    <td>-0.01495</td>
-  </tr>
-  <tr>
-    <td>incavg</td>
-	<td>0</td>	
-	<td>6002</td>
-	<td>14</td>
-	<td>287</td>
-	<td>56.789</td>
-	<td>24.833</td>
-	<td>1.85779</td>
-  </tr>
-  <tr>
-    <td>incmed</td>
-	<td>0</td>	
-	<td>6002</td>
-	<td>3</td>	
-	<td>287</td>
-	<td>43.949</td>
-	<td>24.6644</td>
-	<td>2.00492</td>
-  </tr>
-  <tr>
-    <td>kids</td>
-	<td>0</td>	
-	<td>6002</td>
-	<td>0</td>	
-	<td>5</td>
-	<td>1.584</td>
-	<td>1.4125</td>
-	<td>0.39406</td>
-  </tr>
-  <tr>
-    <td>lag</td>
-	<td>0</td>	
-	<td>6002</td>
-	<td>1</td>	
-	<td>34</td>
-	<td>6.319</td>
-	<td>3.6414</td>
-	<td>2.41056</td>
-  </tr>
-  <tr>
-    <td>low</td>
-	<td>0</td>	
-	<td>6002</td>
-	<td>0</td>
-	<td>87</td>
-	<td>13.885</td>
-	<td>13.1046</td>	
-	<td>1.35139</td>
-  </tr>
-  <tr>
-    <td>mdon</td>
-	<td>0</td>	
-	<td>6002</td>
-	<td>5</td>	
-	<td>40</td>
-	<td>18.789</td>
-	<td>5.5963</td>
-	<td>1.1176</td>
-  </tr>
-  <tr>
-    <td>npro</td>
-	<td>0</td>	
-	<td>6002</td>
-	<td>2</td>	
-	<td>164</td>
-	<td>61.354</td>
-	<td>30.3052</td>
-	<td>0.28319</td>
-  </tr>
-  <tr>
-    <td>ownd</td>
-	<td>0</td>	
-	<td>6002</td>	
-	<td>0</td>
-	<td>1</td>
-	<td>0.885</td>
-	<td>0.3196</td>
-	<td>-2.40714</td>
-  </tr>
-  <tr>
-    <td>sex</td>
-	<td>0</td>
-	<td>6002</td>
-	<td>0</td>
-	<td>1</td>
-	<td>0.608</td>
-	<td>0.4883</td>
-	<td>-0.44168</td>
-  </tr>
-  <tr>
-    <td>wlth</td>
-	<td>0</td>	
-	<td>6002</td>
-	<td>0</td>	
-	<td>9</td>	
-	<td>7.023</td>	
-	<td>2.331</td>	
-	<td>-1.46091</td>
-  </tr>
-</table>
-</body>
-</html>
-
-### 2. Build and run classification models.
-The models were assessed on its overall accuracy (misclassification rate) while observing sensitivity and specificity of the models. donr was the variable used to identify a donor. It is marked '1' if the individual donated and '0' if they did not donate. Four main types of models were tested: Naive Bayesian, Neural Network, Tree-based, and KNN. 
-
-### 3. Build and run prediction models.
-The models were assessed on its overall accuracy (misclassification rate) while observing sensitivity and average squared error of the models. damt was the variable used to identify the predicted amount a donor will donate. Four main types of models were tested: Polynomial Linear Regression, Tree-based Regressor, and Neural Network.
-
-### 4. Provide a summary of analysis and detail limitations.
-
-The Neural Networks in both the classification and prediction models provided the best models for deployment. Using the models, an estimated 76% improvement in cost effectiveness is estimated. The estimated percent is based on the estimated donation amount from each predicted donor. Limitaions in the data consist of limited records to train and test the model while more variables could have been analyzed to fine tune a more accurate model. More detailed location data was withheld from the data team that could have been beneficial to regional analysis and donation prediction. Using the new data from the upcoming marketing campaign will detail how accurate the predicting power of the model is and can be used to fine tune the model for future usage.
+### 4. Register datasets in the DASH application
+Once data has been migrated from a siloed, localized location within a state agency to their GCP spoke, the next step is for the Data Owner to register the agency-selected datasets for the DASH application. Once a dataset is registered, other state agencies may request access to the data through DASH which requires approval from the respective Data Owner. DASH is the State of Oklahoma Data Sharing Hub. This hub is curated by OMES; however, the registered datasets are maintained and governed by the state agency's Data Owner who registered the dataset. This acts as both a sharing hub as well as an additional form of security when sharing data between agencies. Ultimately, the respective agency's Data Owner may control who sees the data, for how long, and may pull access to the dataset at any point.
 
 For more details see [Oklahoma Data-Driven Services](https://oklahoma.gov/omes/services/information-services/dataservices.html).
 <br>
