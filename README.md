@@ -8,28 +8,12 @@ This repository was created to build out my personal GitHub portfolio. The goal 
 
 - **SAS Folder**: Contains .xml for SAS Enterprise Miner Classification and Predicition model diagrams. Also contains the PDF file for final report of the marketing campaign.
 - **Layouts Folder**: Contains the default.html file used to create the default url and landing page of the portfolio. The code uses the repository name to establish the url.
-
-### Markdown Cheat Sheet
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
+- **Images Folder**: Contains images used throughout the portfolio. Images are either .png, .jpg, or .gif.
+- **Pages Folder**: Contains markdown pages to detail projects. These are the pages linked to the buttons on the portfolio.
+- **LICENSE File**: Contains the license and respective license statement for this repository.
+- **README File**: This file you are currently reading.
+- **Config.yml File**: This is the file that builds the content on the left side of the portfolio landing page. This includes the portfolio image of myself and the personal statement about me. 
+- **Index File**: This builds the project section of the portfolio landing page. For me, this is a relatively simple page as it mainly houses the buttons that redirect you to the markdowns in the Pages folder. 
 
 ### References
 
