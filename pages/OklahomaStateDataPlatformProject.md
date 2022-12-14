@@ -12,9 +12,9 @@ Once we have connected with an agency for their data needs and initial planning,
 
 ### 3. Assist with Data ETL Pipeline creation, Metadata tagging, and Database management.
 Once an agency has become familiar with their GCP environment, designing and deploying pipelines for the data becomes paramount. Most agencies currently lack centralized databases and piping data from various locations is common. Working with the Data Engineering team, we determine where the location of specific datasets reside and determine the best resource for moving data. One of the most common methods utilized is GCP's Data Cloud Fusion which allows code-free ETL deployment and end-to-end data lineage for risk analysis and future troubleshooting. This is often the preferred method as most state agencies will take over pipeline management and often do not have the Python or Bash skills to troubleshoot a pipeline issue.
-<br>
+<br><br>
 Once the data has reached GCP, the next step is to have it 'pass' through Google's Dataplex for Metadata tagging. This allows for additional security for certain data deemed confidential. Dataplex allows for centralized security and policy governance even if an agency independently does not assign a sensitivity tag to a particular variable or field themselves. Dataplex also utilizes Google's built-in AI and Machine Learning capabilities to automate classification, data quality, and data discovery across the hub-and-spoke model. Dataplex is a key asset of the State Data Platform as it provides that extra layer of security that cannot be achieved in local agency-owned databases.
-<br> 
+<br><br>
 Once the data has been properly tagged, it is placed into an agency's GCP BigQuery. BigQuery is GCP's serverless data warehouse with built-in machine learning and business insight capabilities. Once data has been loaded into an agency's BigQuery, an agency can manage, query, and transform data to use for analytics across the different datasets from various departments within the agency. 
 
 ### 4. Register datasets in the DASH application
