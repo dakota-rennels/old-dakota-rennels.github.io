@@ -20,8 +20,8 @@ Once the data has been properly tagged, it is placed into an agency's GCP BigQue
 ### 4. Register datasets in the DASH application
 Once data has been migrated from a siloed, localized location within a state agency to their GCP spoke, the next step is for the Data Owner to register the agency-selected datasets for the DASH application. Once a dataset is registered, other state agencies may request access to the data through DASH which requires approval from the respective Data Owner. DASH is the State of Oklahoma Data Sharing Hub. This hub is curated by OMES; however, the registered datasets are maintained and governed by the state agency's Data Owner who registered the dataset. This acts as both a sharing hub as well as an additional form of security when sharing data between agencies. Ultimately, the respective agency's Data Owner may control who sees the data, for how long, and may pull access to the dataset at any point.
 
-For more details see [Oklahoma Data-Driven Services](https://oklahoma.gov/omes/services/information-services/dataservices.html).
+For more details see: [Oklahoma Data-Driven Services](https://oklahoma.gov/omes/services/information-services/dataservices.html).
 <br>
-For up-to-date announcements see [Oklahoma Data-Driven Service Announcements](https://oklahoma.gov/omes/services/information-services/dataservices/announcements.html).
+For up-to-date announcements see: [Oklahoma Data-Driven Service Announcements](https://oklahoma.gov/omes/services/information-services/dataservices/announcements.html).
 <br>
-Google's Case Study on the State of Oklahoma's State Data Platform [Google Case Study](https://cloud.google.com/customers/state-of-oklahoma-omes).
+Google's Case Study on the State of Oklahoma's State Data Platform: [Google Case Study](https://cloud.google.com/customers/state-of-oklahoma-omes).
