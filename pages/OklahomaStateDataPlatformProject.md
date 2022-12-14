@@ -2,7 +2,6 @@
 
 **Project description:** 
 
-https://youtu.be/ZNxmbjxT_Uo
 [![OMES collaborates with state agencies to utilize data and drive service efficiencies for Oklahomans](/images/Youtube_Thumbnail_SDP.png)](https://youtu.be/ZNxmbjxT_Uo "OMES collaborates with state agencies to utilize data and drive service efficiencies for Oklahomans")
 
 ### 1. Perform descriptive statistics and EDA on provided data.
