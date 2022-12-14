@@ -4,7 +4,7 @@
 
 ### Completed Projects 
 
-- [Non-Profit Marketing Campaign Efficiency Project:](/pages/SASProject.md) <br> [<img src="images/nonprofit_campaign.png?raw=true"/>](/pages/SASProject.md)
+- [Non-Profit Marketing Campaign Efficiency Project:](/pages/SASProject.md) <br> [<img src="images/NonProfitButton.gif?raw=true"/>](/pages/SASProject.md)
 
 ### Current Projects
 
