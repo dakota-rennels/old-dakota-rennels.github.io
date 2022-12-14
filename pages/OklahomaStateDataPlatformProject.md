@@ -1,6 +1,7 @@
 ## Oklahoma State Data Platform
 
 **Project description:** Oklahoma Office of Management and Enterprise Services (OMES) Data-Driven Services team has undertaken an initiative to create a State Data Platform to provide transparency, security, and accountability of state data while supporting state agencies with various tools, software, infrastructure, and services. The main goal of the platform is to connect state agencies who offer services to the public such as: food benefits, school programs, licensing programs, and mental health; with a platform for seamless data sharing between state agencies. This hub-and-spoke model will allow the State of Oklahoma to work together to improve the lives of Oklahomans by improving programs through more detailed analytics, while ensuring all information is protected and secure. For a bit more of an introduction into the initiative, please watch the following video:
+<br>
 [![OMES collaborates with state agencies to utilize data and drive service efficiencies for Oklahomans](/images/Youtube_Thumbnail_SDP.png)](https://youtu.be/ZNxmbjxT_Uo "OMES collaborates with state agencies to utilize data and drive service efficiencies for Oklahomans")
 
 ### 1. Perform Data Discovery and create a Data Strategy
