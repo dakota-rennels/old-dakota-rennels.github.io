@@ -2,7 +2,7 @@
 
 ### Introduction
 
-This repository was created to build out my personal GitHub portfolio. The goal is to maintain current and past project progression for future personal growth. This README file is to serve as a directory for the existing portfolio. Please read through and do not hesitate to copy this repository as a template for your personal use. If you are trying to navigate to the prtfolio landing page, please use the following link: [https://dakota-rennels.github.io/](https://dakota-rennels.github.io/) <br> **Disclaimer** The buttons used in the actual portfolio were personally generated in Adobe Illustrator and currently I do not have a base template button added.
+This repository was created to build out my personal GitHub portfolio. The goal is to maintain current and past project progression for future personal growth. This README file is to serve as a directory for the existing portfolio. Please read through and do not hesitate to copy this repository as a template for your personal use. If you are trying to navigate to the prtfolio landing page, please use the following link: [https://dakota-rennels.github.io/](https://dakota-rennels.github.io/) <br><br> **Disclaimer:** The buttons used in the actual portfolio were personally generated in Adobe Illustrator and currently I do not have a base template button added.
 
 ### Repository Directory
 
