@@ -217,4 +217,5 @@ The models were assessed on its overall accuracy (misclassification rate) while 
 
 The Neural Networks in both the classification and prediction models provided the best models for deployment. Using the models, an estimated 76% improvement in cost effectiveness is estimated. The estimated percent is based on the estimated donation amount from each predicted donor. Limitaions in the data consist of limited records to train and test the model while more variables could have been analyzed to fine tune a more accurate model. More detailed location data was withheld from the data team that could have been beneficial to regional analysis and donation prediction. Using the new data from the upcoming marketing campaign will detail how accurate the predicting power of the model is and can be used to fine tune the model for future usage.
 
-For more details see [Report via PDF](/SAS/Nonprofit_marketing_report.pdf).
+For more details see [Oklahoma Data-Driven Services](https://oklahoma.gov/omes/services/information-services/dataservices.html).
+For up-to-date announcements see [Oklahoma Data-Driven Service Announcements](https://oklahoma.gov/omes/services/information-services/dataservices/announcements.html).
