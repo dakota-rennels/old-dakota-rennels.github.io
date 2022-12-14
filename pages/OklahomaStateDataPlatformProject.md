@@ -23,3 +23,5 @@ Once data has been migrated from a siloed, localized location within a state age
 For more details see [Oklahoma Data-Driven Services](https://oklahoma.gov/omes/services/information-services/dataservices.html).
 <br>
 For up-to-date announcements see [Oklahoma Data-Driven Service Announcements](https://oklahoma.gov/omes/services/information-services/dataservices/announcements.html).
+<br>
+Google's Case Study on the State of Oklahoma's State Data Platform [Google Case Study](https://cloud.google.com/customers/state-of-oklahoma-omes)
