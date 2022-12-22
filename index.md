@@ -1,5 +1,4 @@
 # Portfolio
-
 ---
 
 ## Completed Projects 
