@@ -4,7 +4,7 @@
 
 ### 1. Specializations
 
-Specializations arranged by in alphabetical order of specialization provider. 
+Specializations are specific milestones of a certification path that highlight an area of expertise from a collection of certifications or extensive work in a particular area. These specializations are arranged by alphabetical order of specialization provider. 
 
 IBM - Data Analysis and Visualization Foundations Specialization.pdf <br>
 IBM - Introduction to Data Science Specialization.pdf <br>
@@ -12,10 +12,10 @@ IBM & UVA Darden - Digital Strategy Specialization.pdf <br>
 
 ### 2. Certificates
 
-Certifications arranged by in alphabetical order of certificate provider.
+Certifications are awards for completing a course or set of courses within a specific topic or field of study. These certifications are arranged by alphabetical order of certificate provider.
 
 IBM  - Data Science Methodology <br>
-IBM  - Machine LEarning with Python <br>
+IBM  - Machine Learning with Python <br>
 IBM  - Introduction to Data Analytics <br>
 IBM  - Excel Basics for Data Analysis <br>
 IBM  - Databases and SQL for Data Science with Python <br>
@@ -31,7 +31,7 @@ UNT - Negotiation <br>
 UNT - Methods for Discovery and Learning from Data <br>
 UNT - Fundamentals of Inquiry and Discovery <br>
 UNT - Data Analytics II <br>
-UNT -  Pathways to Civic Engagement <br>
+UNT - Pathways to Civic Engagement <br>
 UC Davis - Fundamentals of Visualization with Tableau <br> <br>
 
 For more details on a particular credential, please click on the respective certificate or specialization.
