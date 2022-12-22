@@ -6,9 +6,9 @@
 
 Specializations are specific milestones of a certification path that highlight an area of expertise from a collection of certifications or extensive work in a particular area. These specializations are arranged by alphabetical order of specialization provider. 
 
-IBM - Data Analysis and Visualization Foundations Specialization.pdf <br>
-IBM - Introduction to Data Science Specialization.pdf <br>
-IBM & UVA Darden - Digital Strategy Specialization.pdf <br>
+- IBM - Data Analysis and Visualization Foundations Specialization
+- IBM - Introduction to Data Science Specialization
+- IBM & UVA Darden - Digital Strategy Specialization
 
 ### 2. Certificates
 
