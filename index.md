@@ -14,9 +14,9 @@
 
 ## Certificates & Specializations
 ### Highlighted Certifications
--
--
--
+- DataCamp Professional Data Science Certificate (*TBA*)
+- [IBM - Data Analysis and Visualization Foundations Specialization](/Certifications/IBM%20-%20Data%20Analysis%20and%20Visualization%20Foundations%20Specialization.pdf)
+- [Google - From Data to Insights with GCP](/Certifications/Google%20-%20From%20Data%20to%20Insights%20with%20GCP.pdf)
 - [All Certifications](/pages/Certifications.md)
 ---
 
