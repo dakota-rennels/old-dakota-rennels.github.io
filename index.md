@@ -13,6 +13,12 @@
 - [Oklahoma Data Modernization](https://oklahoma.gov/omes/services/information-services/dataservices.html)
 - [Oklahoma Data Governance Initiative](https://oklahoma.gov/omes/services/information-services/data-governance.html)
 
+### Certificates & Specializations
+## Highlighted Certifications
+-
+-
+-
+- [All Certifications](/pages/Certifications.md)
 ---
 
 
