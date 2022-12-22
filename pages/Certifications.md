@@ -31,7 +31,7 @@ Certifications are awards for completing a course or set of courses within a spe
 - [UNT - Methods for Discovery and Learning from Data](/Certifications/UNT%20-%20Methods%20for%20Discovery%20and%20Learning%20from%20Data.pdf)
 - [UNT - Fundamentals of Inquiry and Discovery](/Certifications/UNT%20-%20Fundamentals%20of%20Inquiry%20and%20Discovery.pdf)
 - [UNT - Data Analytics II](/Certifications/UNT%20-%20Data%20Analytics%20II.pdf)
-- [UNT - Pathways to Civic Engagement](Certifications/UNT%20-%20%20Pathways%20to%20Civic%20Engagement.pdf)
+- [UNT - Pathways to Civic Engagement](/Certifications/UNT%20-%20%20Pathways%20to%20Civic%20Engagement.pdf)
 - [UC Davis - Fundamentals of Visualization with Tableau](/Certifications/UC%20Davis%20-%20Fundamentals%20of%20Visualization%20with%20Tableau.pdf)
 
 For more details on a particular credential, please click on the respective certificate or specialization.
