@@ -14,7 +14,7 @@ Specializations are specific milestones of a certification path that highlight a
 
 Certifications are awards for completing a course or set of courses within a specific topic or field of study. These certifications are arranged by alphabetical order of certificate provider.
 
-- [IBM - Data Science Methodology](/Certifications/IBM - Data Science Methodology.pdf)
+- [IBM - Data Science Methodology](/Certifications/"IBM - Data Science Methodology.pdf")
 - [IBM - Machine Learning with Python](/Certifications/IBM  - Machine Learning with Python.pdf)
 - [IBM - Introduction to Data Analytics](/Certifications/IBM - Introduction to Data Analytics.pdf)
 - [IBM - Excel Basics for Data Analysis](/Certifications/IBM - Excel Basics for Data Analysis.pdf)
