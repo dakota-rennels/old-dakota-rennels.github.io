@@ -20,7 +20,7 @@ Certifications are awards for completing a course or set of courses within a spe
 - [IBM - Excel Basics for Data Analysis](/Certifications/IBM%20%20-%20Excel%20Basics%20for%20Data%20Analysis.pdf)
 - [IBM - Databases and SQL for Data Science with Python](/Certifications/IBM%20%20-%20Databases%20and%20SQL%20for%20Data%20Science%20with%20Python.pdf)
 - [IBM - Data Visualization with Python](/Certifications/IBM%20%20-%20Data%20Analysis%20with%20Python.pdf)
-- [IBM - Data Visualization  and Dashboards with Excel and Cognos](/Certifications/IBM%20%20-%20Data%20Visualization%20and%20Dashboards%20with%20Excel%20and%20Cognos.pdf)
+- [IBM - Data Visualization  and Dashboards with Excel and Cognos](/Certifications/IBM%20%20-%20Data%20Visualization%20%20and%20Dashboards%20with%20Excel%20and%20Cognos.pdf)
 - [IBM - Data Analysis with Python](/Certifications/IBM%20%20-%20Data%20Analysis%20with%20Python.pdf)
 - [Google - From Data to Insights with GCP](/Certifications/Google%20-%20From%20Data%20to%20Insights%20with%20GCP.pdf)
 - [Google - Developing Data Models with LookML](/Certifications/Google%20-%20Developing%20Data%20Models%20with%20LookML.pdf)
