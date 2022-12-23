@@ -15,8 +15,6 @@ State of Oklahoma MLOps Strategy:
 ### 3. Procuring Data Science Tools
 
 
-### 4. Register datasets in the DASH application
-
 
 For more Data Science details see: [Oklahoma Data-Driven Services](https://oklahoma.gov/omes/services/information-services/dataservices/data-science.html).
 <br>
