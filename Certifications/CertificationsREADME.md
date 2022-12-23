@@ -1,1 +1,1 @@
-BLANK
+This Folder contains various certifications or specializations presented to me for career-focused trainings and accomplishments. This folder is merely the used to store the pdfs. The pages folder contains the markdown of the certification links for the github landing page.
