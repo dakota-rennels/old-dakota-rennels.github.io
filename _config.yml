@@ -2,10 +2,10 @@ title: Dakota Rennels # your name (or website title) here
 logo: "images/profile_pic.png" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
 
-  4+ years of Data Science and Data Analytics 
-  experience with extensive experience of utilizing 
-  advanced data analytics, deploying risk management
-  analysis, and designing data strategy.
+  4+ years of Data Science and Advanced Data Analytics 
+  experience with initiatives utilizing advanced data 
+  analytics, deploying risk management analysis, and 
+  designing data strategy.
   <br><br>
   Currently, I work as a Sr. Data Analyst on 
   the Data Science team for Oklahoma Office of 
@@ -16,11 +16,7 @@ description: > # your text below (remove <br> elements if you don't need line br
   individual data strategy while aligning with 
   the overall state standard. 
   <br><br>
-  Through my data initatives, I have hands-on 
-  experience with data ingestion, data management, 
-  data analysis, classification and prediction model 
-  deployment, and large-scale, autonomous visualizations.
-  <br><br>
+
   <a href="https://www.linkedin.com/in/dakota-rennels/">View My LinkedIn Profile</a> 
   
 theme: jekyll-theme-minimal
