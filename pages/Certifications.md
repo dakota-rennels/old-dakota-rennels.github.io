@@ -14,10 +14,10 @@ Specializations are specific milestones of a certification path that highlight a
 
 Certifications are awards for completing a course or set of courses within a specific topic or field of study. These certifications are arranged by alphabetical order of certificate provider.
 
-- DataCamp - Data Manipulation with pandas.pdf(/Certifications/DataCamp%20-%20Data%20Manipulation%20with%20pandas.pdf)
-- DataCamp - Intermediate Python.pdf(/Certifications/DataCamp%20-%20Intermediate%20Python.pdf)
-- DataCamp - Introduction to Python.pdf(/Certifications/DataCamp%20-%20Introduction%20to%20Python.pdf)
-- DataCamp - Joining Data with pandas.pdf(/Certifications/DataCamp%20-%20Joining%20Data%20with%20pandas.pdf)
+- [DataCamp - Data Manipulation with pandas.pdf](/Certifications/DataCamp%20-%20Data%20Manipulation%20with%20pandas.pdf)
+- [DataCamp - Intermediate Python.pdf](/Certifications/DataCamp%20-%20Intermediate%20Python.pdf)
+- [DataCamp - Introduction to Python.pdf](/Certifications/DataCamp%20-%20Introduction%20to%20Python.pdf)
+- [DataCamp - Joining Data with pandas.pdf](/Certifications/DataCamp%20-%20Joining%20Data%20with%20pandas.pdf)
 - [IBM - Data Science Methodology](/Certifications/IBM%20-%20Data%20Science%20Methodology.pdf)
 - [IBM - Machine Learning with Python](/Certifications/IBM%20%20-%20Machine%20Learning%20with%20Python.pdf)
 - [IBM - Introduction to Data Analytics](/Certifications/IBM%20%20-%20Introduction%20to%20Data%20Analytics.pdf)
