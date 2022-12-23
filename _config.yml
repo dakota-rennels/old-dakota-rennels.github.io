@@ -2,6 +2,7 @@ title: Dakota Rennels # your name (or website title) here
 logo: "images/profile_pic.png" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
 
+<div style="height:120px;width:120px;border:1px solid #ccc;font:16px/26px Georgia, Garamond, Serif;overflow:auto;">
   4+ years of Data Science and Advanced Data Analytics 
   experience with initiatives utilizing advanced data 
   analytics, deploying risk management analysis, and 
@@ -14,7 +15,7 @@ description: > # your text below (remove <br> elements if you don't need line br
   goverance policy creation and implementation
   while aiding agencies with developing their 
   individual data strategy while aligning with 
-  the overall state standard. 
+  the overall state standard. </div>
   <br><br>
 
   <a href="https://www.linkedin.com/in/dakota-rennels/">View My LinkedIn Profile</a> 
