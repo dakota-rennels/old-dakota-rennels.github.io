@@ -9,11 +9,8 @@ Although the entire project encompasses building out a Data Science team, the fi
 ### 2. Creating a Data Science Lifecycle and MLOps Strategy
 Where every step in the DS Initiative is important, creating and standardizing a DS Lifecycle and MLOps Strategy is vital to the longevity of the DS team and the models deployed for state agencies. This is argueably the most complex step of the project as there is no true national standard for a DS Lifecycle or MLOps Strategy. The most crucial piece of this step is defining the lifecycle and strategy early on to relay expectations of data quality and data governance from the point of data entry to its final destination. Where a DS Lifecycle and MLOps Strategy can often be considered the same, the separation here is that the DS Lifecycle starts from defining the business problem/quesiton to model deployment and is an extension of the existing State of Oklahoma's Data Lifecycle. MLOps is focused more directly on design, development, deployment, and operations of the model and helps maintain, sustain, and accelerate value <ins>after development</ins>. For more detail into existing DS Lifecycle and MLOps Strategy, please use the following links (information in links are subject to continuous change):
 
-State of Oklahoma Data Science Lifecycle: <br>
-State of Oklahoma MLOps Strategy:
-
-### 3. Procuring Data Science Tools
-
+State of Oklahoma Data Science Lifecycle: [Oklahoma Data Science Standards](/Files/DS_Microsoft_Standards.pdf)<br>
+State of Oklahoma MLOps Strategy: [Oklahoma MLOps Standards and Process](/Files/MLOps Strategy.pdf)
 
 
 For more Data Science details see: [Oklahoma Data-Driven Services](https://oklahoma.gov/omes/services/information-services/dataservices/data-science.html).
