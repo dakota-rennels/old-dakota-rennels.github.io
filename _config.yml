@@ -11,6 +11,8 @@ description: > # your text below (remove <br> elements if you don't need line br
   <a href="https://www.linkedin.com/in/dakota-rennels/">View My LinkedIn Profile</a> <br>
   <a href="https://unt.joinhandshake.com/stu/users/34620535">View My Handshake Profile</a> <br>
   <a href="https://github.com/dakota-rennels/Python-Notebooks/tree/main">View My Github Repo</a>
+  [View My Resume](/Files/Dakota_Rennels_Resume_Data_Science.pdf)
+
   
 theme: jekyll-theme-minimal
 google_analytics: G-YR9X1RHSJB # your Google Analytics tracking ID here
