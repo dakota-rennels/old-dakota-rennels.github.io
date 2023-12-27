@@ -10,7 +10,7 @@ description: > # your text below (remove <br> elements if you don't need line br
 
   <a href="https://www.linkedin.com/in/dakota-rennels/">View My LinkedIn Profile</a> <br>
   <a href="https://unt.joinhandshake.com/stu/users/34620535">View My Handshake Profile</a> <br>
-  <a href="https://github.com/dakota-rennels/Python-Notebooks/tree/main">View My Github Repo</a>
+  <a href="https://github.com/dakota-rennels/Python-Notebooks/tree/main">View My Github Repo</a> <br>
   <a href="https://github.com/dakota-rennels/dakota-rennels.github.io/blob/main/Files/Dakota_Rennels_Resume_Data_Science.pdf">View My Resume</a>
   
 theme: jekyll-theme-minimal
