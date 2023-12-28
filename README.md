@@ -1,11 +1,14 @@
 ## Data Science Portfolio Landing Page
 
+### **IMPORTANT!** This repo is being deprecated for an updated version. I have changed the name to old-dakota-rennels.github.io and dakota-rennels.github.io repo will be the current.
+
 ### Introduction
 
 This repository was created to build out my personal GitHub portfolio. The goal is to maintain current and past project progression for future personal growth. This README file is to serve as a directory for the existing portfolio. Please read through and do not hesitate to copy this repository as a template for your personal use. If you are trying to navigate to the portfolio landing page, please use the following link: [https://dakota-rennels.github.io/](https://dakota-rennels.github.io/) <br><br> **Disclaimer:** If copying this repository for personal use, the buttons used in the actual portfolio were personally generated in Adobe Illustrator and currently I do not have a base template button image added.
 
 ### Repository Directory
 
+- **Certificates Folder**: Contains a collection of all certificates awarded relative to computer science.
 - **SAS Folder**: Contains .xml for SAS Enterprise Miner Classification and Predicition model diagrams. Also contains the PDF file for final report of the marketing campaign.
 - **Layouts Folder**: Contains the default.html file used to create the default url and landing page of the portfolio. The code uses the repository name to establish the url.
 - **Images Folder**: Contains images used throughout the portfolio. Images are either .png, .jpg, or .gif.
